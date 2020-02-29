@@ -1,0 +1,29 @@
+p {
+  word-wrap: break-word;
+  white-space: normal;
+  margin: 0px;
+}
+
+p.lead-primay {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p.lead-secondary {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+p.lead-content {
+  font-size: 1rem;
+  color: blackLight;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+div.homepage {
+  background-color: lightGrey;
+  padding-left: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}

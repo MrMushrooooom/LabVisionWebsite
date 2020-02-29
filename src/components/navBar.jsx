@@ -1,11 +1,13 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import CommonButton from "./common/commonButton";
 
 const NavBar = () => {
   return (
-    <div className="sticky-top" style={{ "background-color": "#e3f2fd" }}>
-      <nav className="container navbar navbar-expand-lg navbar-light justify-content-between">
+    <nav
+      className="sticky-top navbar navbar-expand-md navbar-light"
+      style={{ backgroundColor: "#FFFFFF" }}
+    >
+      <div className="container">
         <div
           className="navbar-header"
           data-toggle="collapse"
@@ -94,18 +96,21 @@ const NavBar = () => {
           </div>
           <div data-toggle="collapse" data-target=".navbar-collapse.show">
             <a href="/trail-apply" target="_blank">
-              <CommonButton
-                label="免费试用"
+              <button
+                className="btn btn-outline-primary btn-sm"
                 style={{
-                  marginRight: "20px",
-                  borderRadius: "5px"
+                  borderRadius: "20px",
+                  paddingLeft: "1.5rem",
+                  paddingRight: "1.5rem"
                 }}
-              ></CommonButton>
+              >
+                免费试用
+              </button>
             </a>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 

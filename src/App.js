@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Redirect, Switch } from "react-router-dom";
 import NavBar from "./components/navBar";
-import NavBarTest from "./components/navBarTest";
 import "./App.css";
 import Homepage from "./components/pages/homepage";
 import FeatureInspection from "./components/pages/featureInspection";
@@ -14,6 +13,11 @@ import Partner from "./components/pages/partner";
 import Price from "./components/pages/price";
 import NotFound from "./components/pages/notFound";
 import TrailApply from "./components/pages/trailApply";
+import FooterForApply from "./components/pages/footerForApply";
+import Footer from "./components/pages/footer";
+import ContactUs from "./components/pages/contactUs";
+import ServiceAgreement from "./components/pages/serviceAgreement";
+import PrivacyPolicy from "./components/pages/privacyPolicy";
 
 const TrailApplyContainer = () => (
   <div>
@@ -23,9 +27,6 @@ const TrailApplyContainer = () => (
   </div>
 );
 
-const bgStyle = {
-  backgroundColor: "DodgerBlue"
-};
 const DefaultContainer = () => (
   <div>
     <NavBar />
@@ -40,6 +41,9 @@ const DefaultContainer = () => (
         <Route path="/cooperation-case" component={CooperationCase} />
         <Route path="/partner" component={Partner} />
         <Route path="/price" component={Price} />
+        <Route path="/contact-us" component={ContactUs} />
+        <Route path="/service-agreement" component={ServiceAgreement} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
         <Route path="/not-found" component={NotFound} />
 
         <Redirect from="/feature" exact to="/feature/inspection" />
@@ -47,6 +51,8 @@ const DefaultContainer = () => (
         <Redirect to="/not-found" />
       </Switch>
     </div>
+    <FooterForApply />
+    <Footer />
   </div>
 );
 

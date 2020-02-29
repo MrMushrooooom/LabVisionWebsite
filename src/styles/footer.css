@@ -1,0 +1,31 @@
+/* default setting is for mobile, the fontSize and padding、margin
+will changed for bigger screen */
+
+/* base */
+
+p.footer-copyright {
+  font-size: 0.6rem;
+  font-weight: normal;
+  color: gray;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+li.footer-li {
+  padding-top: 1rem;
+}
+a.footer {
+  font-size: 0.8rem;
+  color: #333333;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+/* a.bordered {
+  border-right: 0.03rem solid #cccccc;
+} */
+
+@media (min-width: 544px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}

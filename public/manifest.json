@@ -8,7 +8,32 @@
       "type": "image/x-icon"
     },
     {
-      "src": "img/logo.png",
+      "src": "img/cat1.png",
+      "type": "image/png",
+      "sizes": "2048x2048"
+    },
+    {
+      "src": "img/cat2.png",
+      "type": "image/png",
+      "sizes": "2048x2048"
+    },
+    {
+      "src": "img/cat3.png",
+      "type": "image/png",
+      "sizes": "2048x2048"
+    },
+    {
+      "src": "img/cat4.png",
+      "type": "image/png",
+      "sizes": "2048x2048"
+    },
+    {
+      "src": "img/cat5.png",
+      "type": "image/png",
+      "sizes": "1894x472"
+    },
+    {
+      "src": "img/footer_for_apply_bg.png",
       "type": "image/png",
       "sizes": "2048x2048"
     }

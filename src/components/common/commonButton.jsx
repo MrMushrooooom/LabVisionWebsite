@@ -1,7 +1,7 @@
 import React from "react";
 const CommonButton = ({ label, style }) => {
   return (
-    <button className="btn-primary btn-sm" style={style}>
+    <button className="btn btn-outline-primary btn-sm" style={style}>
       {label}
     </button>
   );
