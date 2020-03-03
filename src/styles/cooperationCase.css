@@ -1,0 +1,135 @@
+/* default setting is for mobile, the fontSize and padding、margin
+will changed for bigger screen */
+
+/* base */
+div.cooperation-case-part1 {
+  background-color: white;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+div.cooperation-case-part2 {
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+}
+
+@media (min-width: 576px) {
+  div.cooperation-case-part1 {
+    padding-top: 2rem;
+  }
+  div.cooperation-case-part2 {
+    padding-top: 6rem;
+  }
+}
+@media (min-width: 992px) {
+  div.cooperation-case-part1 {
+    padding-top: 4rem;
+  }
+  div.cooperation-case-part2 {
+    padding-top: 8rem;
+  }
+}
+@media (min-width: 1200px) {
+  div.cooperation-case-part1 {
+    padding-top: 4rem;
+  }
+  div.cooperation-case-part2 {
+    padding-top: 8rem;
+  }
+}
+
+/* part-1 */
+p.cooperation-case-part1-primary {
+  margin: 0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  p.cooperation-case-part1-primary {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 992px) {
+  p.cooperation-case-part1-primary {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 1200px) {
+  p.cooperation-case-part1-primary {
+    font-size: 2rem;
+  }
+}
+
+/* part-2 */
+div.cooperation-case-part2-div {
+  margin-bottom: 5rem;
+}
+p.cooperation-case-part2-primary {
+  margin: 0px;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+p.cooperation-case-part2-content {
+  font-size: 0.9rem;
+  color: #444444;
+  margin-top: 0rem;
+  margin-bottom: 2.5rem;
+}
+img.cooperation-case-part2-logo {
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  width: 60%;
+}
+
+@media (min-width: 576px) {
+  div.cooperation-case-part2-div {
+    margin-bottom: 10rem;
+  }
+  p.cooperation-case-part2-primary {
+    font-size: 1.4rem;
+  }
+  p.cooperation-case-part2-content {
+    font-size: 0.9rem;
+  }
+  img.cooperation-case-part2-logo {
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  div.cooperation-case-part2-div {
+    margin-bottom: 15rem;
+  }
+  p.cooperation-case-part2-primary {
+    font-size: 1.8rem;
+  }
+  p.cooperation-case-part2-content {
+    font-size: 1rem;
+  }
+  img.cooperation-case-part2-logo {
+    padding-bottom: 1rem;
+    padding-right: 4rem;
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  div.cooperation-case-part2-div {
+    margin-bottom: 15rem;
+  }
+  p.cooperation-case-part2-primary {
+    font-size: 1.8rem;
+  }
+  p.cooperation-case-part2-content {
+    font-size: 1rem;
+  }
+  img.cooperation-case-part2-logo {
+    padding-bottom: 1rem;
+    padding-right: 6rem;
+    width: 100%;
+  }
+}

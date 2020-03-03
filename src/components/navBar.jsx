@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/navbar.css";
 import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -14,7 +15,11 @@ const NavBar = () => {
           data-target=".navbar-collapse.show"
         >
           <Link className="navbar-brand" to="/home">
-            LabVision
+            <img
+              src="/img/logo_labvision.svg"
+              className="logo img-fluid"
+              alt="logo"
+            ></img>
           </Link>
         </div>
         <button

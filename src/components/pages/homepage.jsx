@@ -13,7 +13,7 @@ class Homepage extends Component {
             <p className="homepage-part1-primary">实验室安全管理</p>
             <p className="homepage-part1-secondary">从未如此简单</p>
             <p className="homepage-part1-content">
-              依靠高效、便捷的解决方案,
+              依靠高效、便捷的解决方案
               <br /> 让任何人都可以轻松完成实验室管理工作
             </p>
             <a href="/trail-apply" target="_blank">
@@ -49,7 +49,7 @@ class Homepage extends Component {
         <div className="homepage-part3">
           <div className="homepage-part3-div container text-left">
             <div className="row">
-              <div className="col-sm">
+              <div className="col-sm col-9 col-sm-4">
                 <p className="homepage-part3-primary">安全检查</p>
                 <p className="homepage-part3-secondary">多场景</p>
                 <p className="homepage-part3-content">
@@ -62,27 +62,27 @@ class Homepage extends Component {
                   计划、检查、整改、复查的完整闭环并留存
                 </p>
               </div>
-              <div className="col">
+              <div className="col-sm col-sm-7 offset-sm-1">
                 <img
                   className="img-fluid"
                   src="/img/cat1.png"
                   alt="Responsive"
-                  width="80%"
+                  width="100%"
                 ></img>
               </div>
             </div>
           </div>
           <div className="homepage-part3-div container text-left">
             <div className="row">
-              <div className="col-sm order-2">
+              <div className="col-sm col-sm-7 order-2">
                 <img
                   className="img-fluid"
                   src="/img/cat2.png"
                   alt="Responsive"
-                  width="80%"
+                  width="100%"
                 ></img>
               </div>
-              <div className="col-sm order-1 order-sm-2">
+              <div className="col-sm col-9 col-sm-4 offset-sm-1 order-1 order-sm-2">
                 <p className="homepage-part3-primary">培训与准入</p>
                 <p className="homepage-part3-secondary">分级建设</p>
                 <p className="homepage-part3-content">
@@ -101,7 +101,7 @@ class Homepage extends Component {
           </div>
           <div className="homepage-part3-div container text-left">
             <div className="row">
-              <div className="col-sm">
+              <div className="col-sm col-9 col-sm-4">
                 <p className="homepage-part3-primary">动态台账</p>
                 <p className="homepage-part3-secondary">全面涵盖</p>
                 <p className="homepage-part3-content">
@@ -112,27 +112,27 @@ class Homepage extends Component {
                   对接现有系统，对接数据，提高管理效率
                 </p>
               </div>
-              <div className="col-sm">
+              <div className="col-sm col-sm-7 offset-sm-1">
                 <img
                   className="img-fluid"
                   src="/img/cat1.png"
                   alt="Responsive"
-                  width="80%"
+                  width="100%"
                 ></img>
               </div>
             </div>
           </div>
           <div className="homepage-part3-div container text-left">
             <div className="row">
-              <div className="col-sm order-2">
+              <div className="col-sm col-sm-7 order-2">
                 <img
                   className="img-fluid"
                   src="/img/cat2.png"
                   alt="Responsive"
-                  width="80%"
+                  width="100%"
                 ></img>
               </div>
-              <div className="col-sm order-1 order-sm-2">
+              <div className="col-sm col-9 col-sm-4 offset-sm-1 order-1 order-sm-2">
                 <p className="homepage-part3-primary">环境监测</p>
                 <p className="homepage-part3-secondary">标准参数</p>
                 <p className="homepage-part3-content">

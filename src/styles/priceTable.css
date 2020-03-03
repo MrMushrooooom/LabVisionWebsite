@@ -1,0 +1,60 @@
+/* default setting is for mobile, the fontSize and padding、margin
+will changed for bigger screen */
+
+/* table.price-table {
+  overflow: auto;
+  height: 3rem;
+} */
+/* thead.price-table {
+} */
+tr.price-table-head {
+  line-height: 3.5rem;
+  min-height: 2rem;
+}
+thead.price-table-head {
+  position: sticky;
+  top: 0em;
+}
+th.price-table-head {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #111111;
+  background-color: rgba(230, 230, 230, 0.95);
+  position: sticky;
+  top: 0em;
+}
+th.sticky-offset {
+  top: 3rem;
+}
+
+tr.price-table-body-primay {
+  line-height: 3.5rem;
+  min-height: 3.5rem;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+tr.price-table-body {
+  line-height: 3.5rem;
+  min-height: 3.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+th.price-table-body-primary {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  color: #111111;
+}
+th.price-table-body {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #111111;
+}
+td.price-table-body {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #555555;
+  padding: 0rem;
+  margin: 0rem;
+}

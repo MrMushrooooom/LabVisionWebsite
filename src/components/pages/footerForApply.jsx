@@ -3,17 +3,24 @@ import "../../styles/footerForApply.css";
 
 const FooterForApply = () => {
   return (
-    <div className="main footer_for_apply-bg-img">
+    <div className="main footer-for-apply-bg-img">
       <div className="container text-center">
-        <p className="footer_for_apply-primary text-center">
+        <p className="footer-for-apply-primary text-center">
           现在就体验LabVision
         </p>
-        <p className="footer_for_apply-secondary text-center">
+        <p className="footer-for-apply-secondary text-center">
           开启高效实验室管理时代
         </p>
-        <a href="/trail-apply" target="_blank">
+        <a
+          href="/trail-apply"
+          target="_blank"
+          style={{
+            padding: "rem",
+            margin: "0"
+          }}
+        >
           <button
-            className="btn btn-primary btn-sm"
+            className="btn btn-primary"
             style={{
               borderRadius: "20px",
               paddingLeft: "2rem",

@@ -1,0 +1,118 @@
+/* default setting is for mobile, the fontSize and padding、margin
+will changed for bigger screen */
+
+div.price-card {
+  height: 12rem;
+  border-width: 0;
+  border-radius: 0.3rem;
+}
+div.price-card-top-1 {
+  height: 0.8rem;
+  background-image: url("/img/price_card_blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  margin: 0;
+}
+div.price-card-top-2 {
+  height: 0.8rem;
+  background-image: url("/img/price_card_green.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  margin: 0;
+}
+div.price-card-top-3 {
+  height: 0.8rem;
+  background-image: url("/img/price_card_orange.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  margin: 0;
+}
+div.price-card-top-4 {
+  height: 0.8rem;
+  background-image: url("/img/price_card_purple.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  margin: 0;
+}
+div.price-card-footer {
+  border-width: 0;
+  padding-bottom: 1.2rem;
+  border-bottom-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  background-color: white;
+}
+p.price-card-primary {
+  font-size: 1rem;
+  margin-left: 0.1rem;
+  padding-top: 0.1rem;
+  font-weight: bold;
+}
+p.price-card-content {
+  font-size: 0.8rem;
+  padding-top: 0.1rem;
+  margin-left: 0.1rem;
+  color: gray;
+}
+
+@media (min-width: 576px) {
+  div.price-card {
+    height: 20rem;
+  }
+  div.price-card-footer {
+    padding-bottom: 1.6rem;
+  }
+  p.price-card-primary {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    padding-top: 1.4rem;
+  }
+  p.price-card-content {
+    padding-top: 0.8rem;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 992px) {
+  div.price-card {
+    height: 24rem;
+  }
+  div.price-card-footer {
+    padding-bottom: 2rem;
+  }
+  p.price-card-primary {
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    padding-top: 1.4rem;
+  }
+  p.price-card-content {
+    padding-top: 0.8rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1200px) {
+  div.price-card {
+    height: 28rem;
+  }
+  div.price-card-footer {
+    padding-bottom: 2.4rem;
+  }
+  p.price-card-primary {
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+    padding-top: 1.4rem;
+  }
+  p.price-card-content {
+    padding-top: 0.8rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+}

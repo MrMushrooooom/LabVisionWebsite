@@ -33,9 +33,54 @@
       "sizes": "1894x472"
     },
     {
+      "src": "img/partener_logo.png",
+      "type": "image/png",
+      "sizes": "656x106"
+    },
+    {
       "src": "img/footer_for_apply_bg.png",
       "type": "image/png",
-      "sizes": "2048x2048"
+      "sizes": "1920x410"
+    },
+    {
+      "src": "img/price_banner.png",
+      "type": "image/png",
+      "sizes": "1920x360"
+    },
+    {
+      "src": "img/price_card_purple.png",
+      "type": "image/png",
+      "sizes": "232x14"
+    },
+    {
+      "src": "img/price_card_blue.png",
+      "type": "image/png",
+      "sizes": "232x14"
+    },
+    {
+      "src": "img/price_card_orange.png",
+      "type": "image/png",
+      "sizes": "232x14"
+    },
+    {
+      "src": "img/price_card_green.png",
+      "type": "image/png",
+      "sizes": "232x14"
+    },
+    {
+      "src": "img/bg_trans_01.png",
+      "type": "image/png",
+      "sizes": "1140x794"
+    },
+    {
+      "src": "img/bg_trans_02.png",
+      "type": "image/png",
+      "sizes": "646x1056"
+    },
+    {
+      "src": "img/logo_labvision.svg",
+      "type": "image/svg",
+      "sizes": "646x1056"
     }
   ],
   "start_url": ".",
