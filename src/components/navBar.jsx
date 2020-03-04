@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav
-      className="sticky-top navbar navbar-expand-md navbar-light"
+      className="sticky-top navbar navbar-expand-lg navbar-light"
       style={{ backgroundColor: "#FFFFFF" }}
     >
       <div className="container">
@@ -33,11 +33,12 @@ const NavBar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <div
           className="collapse navbar-collapse justify-content-between"
           id="navbarCollapse"
         >
+          {/* <div className="collapsed-menu d-lg-none"></div> */}
+          {/* <div className="d-none d-lg-block"> */}
           <div className="navbar-nav">
             <div className="nav-item dropdown">
               <Link
@@ -83,38 +84,68 @@ const NavBar = () => {
                 </div>
               </div>
             </div>
-            <div data-toggle="collapse" data-target=".navbar-collapse.show">
+            <div
+              className="navlink"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-item nav-link" to="/cooperation-case">
                 合作案例
               </NavLink>
             </div>
-            <div data-toggle="collapse" data-target=".navbar-collapse.show">
+            <div
+              className="navlink"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-item nav-link" to="/partner">
                 行业伙伴
               </NavLink>
             </div>
-            <div data-toggle="collapse" data-target=".navbar-collapse.show">
+            <div
+              className="navlink"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
               <NavLink className="nav-item nav-link" to="/price">
                 价格
               </NavLink>
             </div>
-          </div>
-          <div data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a href="/trail-apply" target="_blank">
-              <button
-                className="btn btn-outline-primary btn-sm"
-                style={{
-                  borderRadius: "20px",
-                  paddingLeft: "1.5rem",
-                  paddingRight: "1.5rem"
-                }}
+            <div
+              className="navlink d-lg-none"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a
+                className="nav-item nav-link"
+                href="/trail-apply"
+                target="_blank"
               >
                 免费试用
-              </button>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
+        <div
+          className="d-none d-lg-block"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
+          <a href="/trail-apply" target="_blank">
+            <button
+              className="btn btn-outline-primary btn-sm"
+              style={{
+                borderRadius: "20px",
+                paddingLeft: "1.5rem",
+                paddingRight: "1.5rem"
+              }}
+            >
+              免费试用
+            </button>
+          </a>
+        </div>
       </div>
+      {/* </div> */}
     </nav>
   );
 };

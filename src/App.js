@@ -18,6 +18,7 @@ import Footer from "./components/pages/footer";
 import ContactUs from "./components/pages/contactUs";
 import ServiceAgreement from "./components/pages/serviceAgreement";
 import PrivacyPolicy from "./components/pages/privacyPolicy";
+import ScrollToTop from "./utility/scrollToTop";
 
 const TrailApplyContainer = () => (
   <div>
@@ -60,6 +61,7 @@ const DefaultContainer = () => (
 function App() {
   return (
     <React.Fragment>
+      <ScrollToTop />
       <div>
         <Switch>
           <Route exact path="/trail-apply" component={TrailApplyContainer} />

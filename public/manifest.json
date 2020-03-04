@@ -33,37 +33,32 @@
       "sizes": "1894x472"
     },
     {
-      "src": "img/partener_logo.png",
-      "type": "image/png",
-      "sizes": "656x106"
-    },
-    {
-      "src": "img/footer_for_apply_bg.png",
+      "src": "img/footer_for_apply/footer_for_apply_bg.png",
       "type": "image/png",
       "sizes": "1920x410"
     },
     {
-      "src": "img/price_banner.png",
+      "src": "img/price/price_banner.png",
       "type": "image/png",
       "sizes": "1920x360"
     },
     {
-      "src": "img/price_card_purple.png",
+      "src": "img/price/price_card_purple.png",
       "type": "image/png",
       "sizes": "232x14"
     },
     {
-      "src": "img/price_card_blue.png",
+      "src": "img/price/price_card_blue.png",
       "type": "image/png",
       "sizes": "232x14"
     },
     {
-      "src": "img/price_card_orange.png",
+      "src": "img/price/price_card_orange.png",
       "type": "image/png",
       "sizes": "232x14"
     },
     {
-      "src": "img/price_card_green.png",
+      "src": "img/price/price_card_green.png",
       "type": "image/png",
       "sizes": "232x14"
     },
@@ -78,9 +73,85 @@
       "sizes": "646x1056"
     },
     {
+      "src": "img/bg_trans_03.png",
+      "type": "image/png",
+      "sizes": "1022x675"
+    },
+    {
       "src": "img/logo_labvision.svg",
       "type": "image/svg",
       "sizes": "646x1056"
+    },
+
+    {
+      "src": "img/cooperation/cooperation_blg.png",
+      "type": "image/png",
+      "sizes": "468x361"
+    },
+    {
+      "src": "img/cooperation/cooperation_bzy.png",
+      "type": "image/png",
+      "sizes": "468x361"
+    },
+    {
+      "src": "img/cooperation/cooperation_jyb.png",
+      "type": "image/png",
+      "sizes": "468x361"
+    },
+    {
+      "src": "img/cooperation/cooperation_qh.png",
+      "type": "image/png",
+      "sizes": "468x361"
+    },
+    {
+      "src": "img/cooperation/cooperation_logo_blg.png",
+      "type": "image/png",
+      "sizes": "260x61"
+    },
+    {
+      "src": "img/cooperation/cooperation_logo_bzy.png",
+      "type": "image/png",
+      "sizes": "260x60"
+    },
+    {
+      "src": "img/cooperation/cooperation_logo_jyb.png",
+      "type": "image/png",
+      "sizes": "340x120"
+    },
+    {
+      "src": "img/cooperation/cooperation_logo_qh.png",
+      "type": "image/png",
+      "sizes": "200x61"
+    },
+    {
+      "src": "img/partner/partner_ca.png",
+      "type": "image/png",
+      "sizes": "938x640"
+    },
+    {
+      "src": "img/partner/partner_gkzh.png",
+      "type": "image/png",
+      "sizes": "938x640"
+    },
+    {
+      "src": "img/partner/partner_hrkj.png",
+      "type": "image/png",
+      "sizes": "938x640"
+    },
+    {
+      "src": "img/partner/partner_logo_ca.png",
+      "type": "image/png",
+      "sizes": "680x120"
+    },
+    {
+      "src": "img/partner/partner_logo_gkzh.png",
+      "type": "image/png",
+      "sizes": "480x160"
+    },
+    {
+      "src": "img/partner/partner_logo_hrkj.png",
+      "type": "image/png",
+      "sizes": "560x120"
     }
   ],
   "start_url": ".",

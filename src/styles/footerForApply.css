@@ -3,7 +3,7 @@ will changed for bigger screen */
 
 /* base */
 div.footer-for-apply-bg-img {
-  background-image: url("/img/footer_for_apply_bg.png");
+  background-image: url("/img/footer_for_apply/footer_for_apply_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,7 +24,7 @@ p.footer-for-apply-secondary {
   font-weight: lighter;
   color: white;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   div.footer-for-apply-bg-img {
     background-repeat: no-repeat;
     background-size: cover;

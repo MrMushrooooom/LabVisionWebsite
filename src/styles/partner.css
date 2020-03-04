@@ -2,32 +2,29 @@
 will changed for bigger screen */
 
 /* base */
+div.partner-for-trans-bg1 {
+  background-image: url("/img/common/bg_trans_03.png");
+  background-repeat: no-repeat;
+  background-position: 0% 90%;
+  background-size: 70%;
+}
+
 div.partner-part1 {
-  background-color: white;
   padding-left: 1rem;
   padding-top: 1rem;
 }
 div.partner-part2 {
-  background-color: white;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 4rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   div.partner-part1 {
     padding-top: 2rem;
   }
   div.partner-part2 {
     padding-top: 6rem;
-  }
-}
-@media (min-width: 992px) {
-  div.partner-part1 {
-    padding-top: 4rem;
-  }
-  div.partner-part2 {
-    padding-top: 8rem;
   }
 }
 @media (min-width: 1200px) {
@@ -47,14 +44,9 @@ p.partner-part1-primary {
   text-align: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   p.partner-part1-primary {
     font-size: 1.4rem;
-  }
-}
-@media (min-width: 992px) {
-  p.partner-part1-primary {
-    font-size: 1.7rem;
   }
 }
 @media (min-width: 1200px) {
@@ -79,7 +71,7 @@ img.partner-part2-logo {
   width: 60%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   div.partner-part2-div {
     margin-bottom: 10rem;
   }
@@ -92,19 +84,7 @@ img.partner-part2-logo {
     width: 90%;
   }
 }
-@media (min-width: 992px) {
-  div.partner-part2-div {
-    margin-bottom: 15rem;
-  }
-  p.partner-part2-content {
-    font-size: 1rem;
-  }
-  img.partner-part2-logo {
-    padding-bottom: 1rem;
-    padding-right: 4rem;
-    width: 90%;
-  }
-}
+
 @media (min-width: 1200px) {
   div.partner-part2-div {
     margin-bottom: 15rem;

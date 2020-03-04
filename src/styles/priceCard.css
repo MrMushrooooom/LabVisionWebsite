@@ -8,7 +8,7 @@ div.price-card {
 }
 div.price-card-top-1 {
   height: 0.8rem;
-  background-image: url("/img/price_card_blue.png");
+  background-image: url("/img/price/price_card_blue.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 0.3rem;
@@ -17,7 +17,7 @@ div.price-card-top-1 {
 }
 div.price-card-top-2 {
   height: 0.8rem;
-  background-image: url("/img/price_card_green.png");
+  background-image: url("/img/price/price_card_green.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 0.3rem;
@@ -26,7 +26,7 @@ div.price-card-top-2 {
 }
 div.price-card-top-3 {
   height: 0.8rem;
-  background-image: url("/img/price_card_orange.png");
+  background-image: url("/img/price/price_card_orange.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 0.3rem;
@@ -35,7 +35,7 @@ div.price-card-top-3 {
 }
 div.price-card-top-4 {
   height: 0.8rem;
-  background-image: url("/img/price_card_purple.png");
+  background-image: url("/img/price/price_card_purple.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 0.3rem;
@@ -62,7 +62,7 @@ p.price-card-content {
   color: gray;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   div.price-card {
     height: 20rem;
   }

@@ -3,7 +3,7 @@ will changed for bigger screen */
 
 /* base */
 div.price-for-trans-bg {
-  background-image: url("/img/bg_trans_01.png");
+  background-image: url("/img/common/bg_trans_01.png");
   background-repeat: no-repeat;
   background-position: 100% 8%;
   background-size: 98%;
@@ -12,7 +12,7 @@ div.price-for-trans-bg {
 div.price-part1 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("/img/price_banner.png");
+  background-image: url("/img/price/price_banner.png");
 }
 div.price-part2 {
   padding-top: 3rem;
@@ -26,7 +26,7 @@ div.price-part3 {
   align-items: center;
   text-align: center;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   div.price-part1 {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -66,7 +66,7 @@ p.price-part1-primary {
   color: white;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   p.price-part1-primary {
     font-size: 1.4rem;
   }
@@ -96,12 +96,6 @@ div.price-part2-card {
   border-width: 0;
   border-radius: 0.3rem;
 }
-div.price-part2-card-top {
-  height: 0.8rem;
-  background-image: url("/img/footer_for_apply_bg.png");
-  border-top-left-radius: 0.3rem;
-  border-top-right-radius: 0.3rem;
-}
 div.price-part2-card-footer {
   border-width: 0;
   padding-bottom: 1.2rem;
@@ -121,7 +115,7 @@ p.price-part2-content {
   color: gray;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   div.price-part2-card {
     height: 20rem;
   }

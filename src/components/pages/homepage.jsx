@@ -3,6 +3,7 @@ import "../../styles/homepage.css";
 
 class Homepage extends Component {
   state = {};
+
   render() {
     return (
       <div className="homepage">
