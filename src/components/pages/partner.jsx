@@ -15,7 +15,7 @@ class Partner extends Component {
         </div> */}
 
         {/* part2 */}
-        <div className="partner-for-trans-bg1">
+        <div className="partner-trans-bg1">
           <div className="partner-part2">
             <div className="partner-part2-div container text-left">
               <div className="row">

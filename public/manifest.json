@@ -78,6 +78,11 @@
       "sizes": "1022x675"
     },
     {
+      "src": "img/bg_trans_04.png",
+      "type": "image/png",
+      "sizes": "1440x794"
+    },
+    {
       "src": "img/logo_labvision.svg",
       "type": "image/svg",
       "sizes": "646x1056"

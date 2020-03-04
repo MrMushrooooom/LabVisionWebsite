@@ -2,13 +2,13 @@
 will changed for bigger screen */
 
 /* base */
-div.cooperation-for-trans-bg1 {
+div.cooperation-trans-bg1 {
   background-image: url("/img/common/bg_trans_01.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 100%;
 }
-div.cooperation-for-trans-bg2 {
+div.cooperation-trans-bg2 {
   background-image: url("/img/common/bg_trans_02.png");
   background-repeat: no-repeat;
   background-position: 0% 95%;
@@ -46,7 +46,7 @@ div.cooperation-case-row {
   }
 }
 
-/* part-1 */
+/* part1 */
 p.cooperation-case-part1-primary {
   margin: 0px;
   font-size: 1.2rem;

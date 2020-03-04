@@ -16,7 +16,7 @@ div.feature-part2 {
   padding-bottom: 1rem;
 }
 
-@media (min-width: 544px) {
+@media (min-width: 768px) {
   div.feature-part1 {
     padding-top: 3rem;
     padding-bottom: 6rem;
@@ -44,7 +44,7 @@ div.feature-part2 {
   }
 }
 
-/* part-1 */
+/* part1 */
 p.feature-part1-primary {
   margin: 0px;
   font-size: 1.2rem;
@@ -61,7 +61,7 @@ p.feature-part1-content {
   margin-bottom: 3rem;
 }
 
-@media (min-width: 544px) {
+@media (min-width: 768px) {
   p.feature-part1-primary {
     font-size: 1.4rem;
   }
@@ -112,7 +112,7 @@ p.feature-part2-content {
   margin-bottom: 2.5rem;
 }
 
-@media (min-width: 544px) {
+@media (min-width: 768px) {
   div.feature-part2-div {
     margin-bottom: 10rem;
   }

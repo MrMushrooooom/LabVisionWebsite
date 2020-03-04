@@ -2,7 +2,7 @@
 will changed for bigger screen */
 
 /* base */
-div.price-for-trans-bg {
+div.price-trans-bg {
   background-image: url("/img/common/bg_trans_01.png");
   background-repeat: no-repeat;
   background-position: 100% 8%;
@@ -57,7 +57,7 @@ div.price-part3 {
   }
 }
 
-/* part-1 */
+/* part1 */
 p.price-part1-primary {
   margin: 0px;
   font-size: 1.1rem;

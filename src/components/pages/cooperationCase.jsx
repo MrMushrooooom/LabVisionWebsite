@@ -16,10 +16,10 @@ class CooperationCase extends Component {
 
         {/* part2 */}
         {/* Consists of all units*/}
-        <div className="cooperation-for-trans-bg2">
+        <div className="cooperation-trans-bg2">
           <div className="cooperation-case-part2">
             {/* Consists of firt two units*/}
-            <div className="cooperation-for-trans-bg1">
+            <div className="cooperation-trans-bg1">
               <div className="cooperation-case-part2-div container text-left">
                 <div className="cooperation-case-row row">
                   <div className="col-md-7"></div>

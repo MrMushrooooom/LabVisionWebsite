@@ -59,7 +59,7 @@ class Price extends Component {
   render() {
     return (
       <div className="price">
-        {/* part-1 */}
+        {/* part1 */}
         <div className="price-part1">
           <p className="price-part1-primary">
             LabVision为你提供多版本，多功能的
@@ -67,9 +67,9 @@ class Price extends Component {
             实验室管理解决方案
           </p>
         </div>
-        {/* Consists of part-2 and part-3 */}
-        <div className="price-for-trans-bg">
-          {/* part-2 */}
+        {/* Consists of part2 and part3 */}
+        <div className="price-trans-bg">
+          {/* part2 */}
           <div className="price-part2 container">
             <div className="price-part2-row row justify-content-center">
               <div className="price-part2-colume col-6 col-md-3">
@@ -106,7 +106,7 @@ class Price extends Component {
               </div>
             </div>
           </div>
-          {/* part-3 */}
+          {/* part3 */}
           <div className="price-part3 d-none d-md-block">
             <table className="price-table table table-hover table-borderless container">
               <thead className="price-table-head">

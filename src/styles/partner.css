@@ -2,7 +2,7 @@
 will changed for bigger screen */
 
 /* base */
-div.partner-for-trans-bg1 {
+div.partner-trans-bg1 {
   background-image: url("/img/common/bg_trans_03.png");
   background-repeat: no-repeat;
   background-position: 0% 90%;
@@ -36,7 +36,7 @@ div.partner-part2 {
   }
 }
 
-/* part-1 */
+/* part1 */
 p.partner-part1-primary {
   margin: 0px;
   font-size: 1.2rem;
