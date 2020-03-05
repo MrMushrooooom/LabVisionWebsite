@@ -50,7 +50,7 @@ class Homepage extends Component {
         <div className="homepage-part3">
           <div className="homepage-part3-div container text-left">
             <div className="row">
-              <div className="col-sm col-9 col-sm-4">
+              <div className="col-md col-9 col-md-5 align-self-center">
                 <p className="homepage-part3-primary">安全检查</p>
                 <p className="homepage-part3-secondary">多场景</p>
                 <p className="homepage-part3-content">
@@ -63,27 +63,25 @@ class Homepage extends Component {
                   计划、检查、整改、复查的完整闭环并留存
                 </p>
               </div>
-              <div className="col-sm col-sm-7 offset-sm-1">
+              <div className="col-md col-md-6 text-right">
                 <img
-                  className="img-fluid"
-                  src="/img/cat1.png"
+                  className="homepage-part3-img img-fluid"
+                  src="/img/home/home_feature_01.png"
                   alt="Responsive"
-                  width="100%"
                 ></img>
               </div>
             </div>
           </div>
           <div className="homepage-part3-div container text-left">
             <div className="row">
-              <div className="col-sm col-sm-7 order-2">
+              <div className="col-md col-md-6 order-2 text-right">
                 <img
-                  className="img-fluid"
-                  src="/img/cat2.png"
+                  className="homepage-part3-img img-fluid"
+                  src="/img/home/home_feature_02.png"
                   alt="Responsive"
-                  width="100%"
                 ></img>
               </div>
-              <div className="col-sm col-9 col-sm-4 offset-sm-1 order-1 order-sm-2">
+              <div className="col-md col-9 col-md-5 offset-md-1 order-1 order-md-2 align-self-center">
                 <p className="homepage-part3-primary">培训与准入</p>
                 <p className="homepage-part3-secondary">分级建设</p>
                 <p className="homepage-part3-content">
@@ -102,7 +100,7 @@ class Homepage extends Component {
           </div>
           <div className="homepage-part3-div container text-left">
             <div className="row">
-              <div className="col-sm col-9 col-sm-4">
+              <div className="col-md col-9 col-md-5 align-self-center">
                 <p className="homepage-part3-primary">动态台账</p>
                 <p className="homepage-part3-secondary">全面涵盖</p>
                 <p className="homepage-part3-content">
@@ -113,27 +111,25 @@ class Homepage extends Component {
                   对接现有系统，对接数据，提高管理效率
                 </p>
               </div>
-              <div className="col-sm col-sm-7 offset-sm-1">
+              <div className="col-md col-md-6 offset-md-1 text-right">
                 <img
-                  className="img-fluid"
-                  src="/img/cat1.png"
+                  className="homepage-part3-img img-fluid"
+                  src="/img/home/home_feature_03.png"
                   alt="Responsive"
-                  width="100%"
                 ></img>
               </div>
             </div>
           </div>
           <div className="homepage-part3-div container text-left">
             <div className="row">
-              <div className="col-sm col-sm-7 order-2">
+              <div className="col-md col-md-6 order-2 text-right">
                 <img
-                  className="img-fluid"
-                  src="/img/cat2.png"
+                  className="homepage-part3-img img-fluid"
+                  src="/img/home/home_feature_04.png"
                   alt="Responsive"
-                  width="100%"
                 ></img>
               </div>
-              <div className="col-sm col-9 col-sm-4 offset-sm-1 order-1 order-sm-2">
+              <div className="col-md col-9 col-md-5 offset-md-1 order-1 order-md-2 align-self-center">
                 <p className="homepage-part3-primary">环境监测</p>
                 <p className="homepage-part3-secondary">标准参数</p>
                 <p className="homepage-part3-content">
@@ -159,44 +155,39 @@ class Homepage extends Component {
               针对不同企业的规模与需求，提供多元化产品
             </p>
             <div className="row">
-              <div className="homepage-part4-img col-sm text-center">
+              <div className="homepage-part4-img col-md text-center">
                 <img
-                  className="img-fluid"
-                  src="/img/cat1.png"
+                  className="homepage-part4-img img-fluid"
+                  src="/img/home/home_cooperation_jyb.png"
                   alt="Responsive"
-                  width="60%"
                 ></img>
               </div>
-              <div className="homepage-part4-img col-sm text-center">
+              <div className="homepage-part4-img col-md text-center">
                 <img
-                  className="img-fluid"
-                  src="/img/cat2.png"
+                  className="homepage-part4-img img-fluid"
+                  src="/img/home/home_cooperation_qh.png"
                   alt="Responsive"
-                  width="60%"
                 ></img>
               </div>
-              <div className="homepage-part4-img col-sm text-center">
+              <div className="homepage-part4-img col-md text-center">
                 <img
-                  className="img-fluid"
-                  src="/img/cat1.png"
+                  className="homepage-part4-img img-fluid"
+                  src="/img/home/home_cooperation_blg.png"
                   alt="Responsive"
-                  width="60%"
                 ></img>
               </div>
-              <div className="homepage-part4-img col-sm text-center">
+              <div className="homepage-part4-img col-md text-center">
                 <img
-                  className="img-fluid"
-                  src="/img/cat2.png"
+                  className="homepage-part4-img img-fluid"
+                  src="/img/home/home_cooperation_sjd.png"
                   alt="Responsive"
-                  width="60%"
                 ></img>
               </div>
-              <div className="homepage-part4-img col-sm text-center">
+              <div className="homepage-part4-img col-md text-center">
                 <img
-                  className="img-fluid"
-                  src="/img/cat5.png"
+                  className="homepage-part4-img img-fluid"
+                  src="/img/home/home_cooperation_bzy.png"
                   alt="Responsive"
-                  width="60%"
                 ></img>
               </div>
             </div>
@@ -210,16 +201,15 @@ class Homepage extends Component {
             <p className="homepage-part5-primary text-center">
               全方位的解决方案
             </p>
-            <div className="row homepage-part5-row">
-              <div className="col-sm">
+            <div className="row homepage-part5-row justify-content-center">
+              <div className="col-5 col-md-4">
                 <div className="row">
-                  <div className="col-sm homepage-part5-cell">
+                  <div className="col-md homepage-part5-cell">
                     <div className="homepage-part5-img text-center">
                       <img
-                        className="img-fluid"
-                        src="/img/cat1.png"
+                        className="home-part5-img img-fluid"
+                        src="/img/home/home_solution_01.png"
                         alt="Responsive"
-                        width="50%"
                       ></img>
                     </div>
                     <p className="homepage-part5-secondary text-center">
@@ -233,15 +223,14 @@ class Homepage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm">
+              <div className="col-5 col-md-4">
                 <div className="row">
-                  <div className="col-sm homepage-part5-cell">
+                  <div className="col-md homepage-part5-cell">
                     <div className="homepage-part5-img text-center">
                       <img
-                        className="img-fluid"
-                        src="/img/cat1.png"
+                        className="home-part5-img img-fluid"
+                        src="/img/home/home_solution_02.png"
                         alt="Responsive"
-                        width="50%"
                       ></img>
                     </div>
                     <p className="homepage-part5-secondary text-center">
@@ -255,15 +244,14 @@ class Homepage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm">
+              <div className="col-5 col-md-4">
                 <div className="row">
-                  <div className="col-sm homepage-part5-cell">
+                  <div className="col-md homepage-part5-cell">
                     <div className="homepage-part5-img text-center">
                       <img
-                        className="img-fluid"
-                        src="/img/cat1.png"
+                        className="home-part5-img img-fluid"
+                        src="/img/home/home_solution_03.png"
                         alt="Responsive"
-                        width="50%"
                       ></img>
                     </div>
                     <p className="homepage-part5-secondary text-center">
@@ -277,17 +265,15 @@ class Homepage extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row homepage-part5-row">
-              <div className="col-sm">
+
+              <div className="col-5 col-md-4">
                 <div className="row">
-                  <div className="col-sm homepage-part5-cell">
+                  <div className="col-md homepage-part5-cell">
                     <div className="homepage-part5-img text-center">
                       <img
-                        className="img-fluid"
-                        src="/img/cat1.png"
+                        className="home-part5-img img-fluid"
+                        src="/img/home/home_solution_04.png"
                         alt="Responsive"
-                        width="50%"
                       ></img>
                     </div>
                     <p className="homepage-part5-secondary text-center">
@@ -301,15 +287,14 @@ class Homepage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm">
+              <div className="col-5 col-md-4">
                 <div className="row">
-                  <div className="col-sm homepage-part5-cell">
+                  <div className="col-md homepage-part5-cell">
                     <div className="homepage-part5-img text-center">
                       <img
-                        className="img-fluid"
-                        src="/img/cat1.png"
+                        className="home-part5-img img-fluid"
+                        src="/img/home/home_solution_05.png"
                         alt="Responsive"
-                        width="50%"
                       ></img>
                     </div>
                     <p className="homepage-part5-secondary text-center">
@@ -323,15 +308,14 @@ class Homepage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm">
+              <div className="col-5 col-md-4">
                 <div className="row">
-                  <div className="col-sm homepage-part5-cell">
+                  <div className="col-md homepage-part5-cell">
                     <div className="homepage-part5-img text-center">
                       <img
-                        className="img-fluid"
-                        src="/img/cat1.png"
+                        className="home-part5-img img-fluid"
+                        src="/img/home/home_solution_06.png"
                         alt="Responsive"
-                        width="50%"
                       ></img>
                     </div>
                     <p className="homepage-part5-secondary text-center">
@@ -351,29 +335,31 @@ class Homepage extends Component {
 
         {/* part6 */}
 
-        <div className="homepage-part6">
-          <div className="container">
-            <p className="homepage-part6-primary text-center">数据驱动</p>
-            <div className="row">
-              <div className="col-12 col-sm-1"></div>
-              <div className="col-12 col-sm-3 align-self-center">
-                <p className="homepage-part6-secondary text-center text-sm-left">
-                  通过分析数据
-                </p>
-                <p className="homepage-part6-secondary text-center text-sm-center">
-                  全局掌握现状
-                </p>
-                <p className="homepage-part6-secondary text-center text-sm-right">
-                  寻找最有效策略
-                </p>
-              </div>
-              <div className="homepage-part6-img text-center col-12 col-sm-8 ">
-                <img
-                  className="img-fluid"
-                  src="/img/cat1.png"
-                  alt="Responsive"
-                  width="100%"
-                ></img>
+        <div className="home-part6-trans-bg">
+          <div className="homepage-part6">
+            <div className="container">
+              <p className="homepage-part6-primary text-center">数据驱动</p>
+              <div className="row">
+                <div className="col-12 col-md-1"></div>
+                <div className="col-12 col-md-3 align-self-center">
+                  <p className="homepage-part6-secondary text-center text-md-left">
+                    通过分析数据
+                  </p>
+                  <p className="homepage-part6-secondary text-center text-md-center">
+                    全局掌握现状
+                  </p>
+                  <p className="homepage-part6-secondary text-center text-md-right">
+                    寻找最有效策略
+                  </p>
+                </div>
+                <div className="homepage-part6-img text-center col-12 col-md-8 ">
+                  <img
+                    className="img-fluid"
+                    src="/img/home/home_data_analysis.png"
+                    alt="Responsive"
+                    width="100%"
+                  ></img>
+                </div>
               </div>
             </div>
           </div>

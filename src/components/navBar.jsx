@@ -37,8 +37,6 @@ const NavBar = () => {
           className="collapse navbar-collapse justify-content-between"
           id="navbarCollapse"
         >
-          {/* <div className="collapsed-menu d-lg-none"></div> */}
-          {/* <div className="d-none d-lg-block"> */}
           <div className="navbar-nav">
             <div className="nav-item dropdown">
               <Link
@@ -49,6 +47,10 @@ const NavBar = () => {
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
+                activeStyle={{
+                  color: "#007BFE",
+                  backgroundColor: "white"
+                }}
               >
                 功能介绍
               </Link>
@@ -57,30 +59,65 @@ const NavBar = () => {
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
-                  <Link className="dropdown-item" to="/feature/inspection">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/feature/inspection"
+                    activeStyle={{
+                      color: "#007BFE",
+                      backgroundColor: "white"
+                    }}
+                  >
                     安全检查
-                  </Link>
+                  </NavLink>
                 </div>
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
-                  <Link className="dropdown-item" to="/feature/training">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/feature/training"
+                    activeStyle={{
+                      color: "#007BFE",
+                      backgroundColor: "white"
+                    }}
+                  >
                     培训与准入
-                  </Link>
+                  </NavLink>
                 </div>
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
-                  <Link className="dropdown-item" to="/feature/ledger">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/feature/ledger"
+                    activeStyle={{
+                      color: "#007BFE",
+                      backgroundColor: "white"
+                    }}
+                  >
                     动态台账
-                  </Link>
+                  </NavLink>
                 </div>
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
-                  <Link className="dropdown-item" to="/feature/environment">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/feature/environment"
+                    activeStyle={{
+                      color: "#007BFE",
+                      backgroundColor: "white"
+                    }}
+                  >
                     环境监测
-                  </Link>
+                  </NavLink>
                 </div>
 
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
-                  <Link className="dropdown-item" to="/feature/data-analysis">
+                  <NavLink
+                    className="dropdown-item"
+                    to="/feature/data-analysis"
+                    activeStyle={{
+                      color: "#007BFE",
+                      backgroundColor: "white"
+                    }}
+                  >
                     数据分析
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -89,7 +126,13 @@ const NavBar = () => {
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
             >
-              <NavLink className="nav-item nav-link" to="/cooperation-case">
+              <NavLink
+                className="nav-item nav-link"
+                to="/cooperation-case"
+                activeStyle={{
+                  color: "#007BFE"
+                }}
+              >
                 合作案例
               </NavLink>
             </div>
@@ -98,7 +141,13 @@ const NavBar = () => {
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
             >
-              <NavLink className="nav-item nav-link" to="/partner">
+              <NavLink
+                className="nav-item nav-link"
+                to="/partner"
+                activeStyle={{
+                  color: "#007BFE"
+                }}
+              >
                 行业伙伴
               </NavLink>
             </div>
@@ -107,7 +156,13 @@ const NavBar = () => {
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
             >
-              <NavLink className="nav-item nav-link" to="/price">
+              <NavLink
+                className="nav-item nav-link"
+                to="/price"
+                activeStyle={{
+                  color: "#007BFE"
+                }}
+              >
                 价格
               </NavLink>
             </div>
