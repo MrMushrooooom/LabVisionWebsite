@@ -8,7 +8,9 @@ div.trail-apply-left {
   flex: 0 0 25rem;
   height: 100vh;
   min-height: 40rem;
-  background-image: url("/img/price/price_banner.png");
+  background-image: url("/img/trail_apply/trail_apply_left_bg.png");
+  background-position: center;
+  background-size: cover;
 }
 div.trail-apply-right {
   height: 80vh;

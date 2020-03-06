@@ -309,6 +309,14 @@
     {
       "src": "img/feature/feature_data_analysis_04.png",
       "type": "image/png"
+    },
+    {
+      "src": "img/trail_apply/trail_apply_left_bg.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/trail_apply_confirm/trail_apply_confirm_successful.png",
+      "type": "image/png"
     }
   ],
   "start_url": ".",

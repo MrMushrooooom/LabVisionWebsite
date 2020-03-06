@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../../styles/contactUs.css";
-import { getRoles } from "@testing-library/react";
 
 class ContactUs extends Component {
   state = {};
@@ -23,7 +22,7 @@ class ContactUs extends Component {
               <div className="col-12 col-xl-3">
                 <div className="contact-us-card  card shadow">
                   <div className="contact-us-card-body card-body text-center">
-                    <i class="contact-us-card-icon fa fa-lg fa-envelope" />
+                    <i className="contact-us-card-icon fa fa-lg fa-envelope" />
                     <p className="contact-us-card-primary text-center">
                       邮件咨询
                     </p>
@@ -46,7 +45,7 @@ class ContactUs extends Component {
               <div className="col-12 col-xl-3">
                 <div className="contact-us-card  card shadow">
                   <div className="contact-us-card-body card-body text-center">
-                    <i class="contact-us-card-icon fa fa-lg fa-phone" />
+                    <i className="contact-us-card-icon fa fa-lg fa-phone" />
                     <p className="contact-us-card-primary text-center">
                       电话咨询
                     </p>
@@ -69,7 +68,7 @@ class ContactUs extends Component {
               <div className="col-12 col-xl-3">
                 <div className="contact-us-card  card shadow">
                   <div className="contact-us-card-body card-body text-center">
-                    <i class="contact-us-card-icon fa fa-lg fa-weixin" />
+                    <i className="contact-us-card-icon fa fa-lg fa-weixin" />
                     <p className="contact-us-card-primary text-center">
                       微信咨询
                     </p>

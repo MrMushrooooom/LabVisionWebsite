@@ -13,6 +13,7 @@ import Partner from "./components/pages/partner";
 import Price from "./components/pages/price";
 import NotFound from "./components/pages/notFound";
 import TrailApply from "./components/pages/trailApply";
+import TrailApplyConfirm from "./components/pages/trailApplyConfirm";
 import FooterForApply from "./components/pages/footerForApply";
 import Footer from "./components/pages/footer";
 import ContactUs from "./components/pages/contactUs";
@@ -22,7 +23,11 @@ import ScrollToTop from "./utility/scrollToTop";
 
 const TrailApplyContainer = () => (
   <div>
-    <Route path="/trail-apply" component={TrailApply} />
+    <Switch>
+      <Route path="/trail-apply" exact component={TrailApply} />
+      <Route path="/trail-apply-confirm" exact component={TrailApplyConfirm} />
+      <Redirect to="/not-found" />
+    </Switch>
   </div>
 );
 
@@ -32,11 +37,11 @@ const DefaultContainer = () => (
     <div>
       <Switch>
         <Route path="/home" component={Homepage} />
-        <Route path="/feature/inspection" component={FeatureInspection} />
-        <Route path="/feature/training" component={FeatureTraining} />
-        <Route path="/feature/ledger" component={FeatureLedger} />
-        <Route path="/feature/environment" component={FeatureEnvironment} />
-        <Route path="/feature/data-analysis" component={FeatureDataAnalysis} />
+        <Route path="/feature-inspection" component={FeatureInspection} />
+        <Route path="/feature-training" component={FeatureTraining} />
+        <Route path="/feature-ledger" component={FeatureLedger} />
+        <Route path="/feature-environment" component={FeatureEnvironment} />
+        <Route path="/feature-data-analysis" component={FeatureDataAnalysis} />
         <Route path="/cooperation-case" component={CooperationCase} />
         <Route path="/partner" component={Partner} />
         <Route path="/price" component={Price} />
@@ -45,7 +50,7 @@ const DefaultContainer = () => (
         <Route path="/privacy-policy" component={PrivacyPolicy} />
         <Route path="/not-found" component={NotFound} />
 
-        <Redirect from="/feature" exact to="/feature/inspection" />
+        <Redirect from="/feature" exact to="/feature-inspection" />
         <Redirect from="/" exact to="/home" />
         <Redirect to="/not-found" />
       </Switch>
@@ -62,7 +67,12 @@ function App() {
       <ScrollToTop />
       <div>
         <Switch>
-          <Route exact path="/trail-apply" component={TrailApplyContainer} />
+          <Route path="/trail-apply" exact component={TrailApplyContainer} />
+          <Route
+            path="/trail-apply-confirm"
+            exact
+            component={TrailApplyContainer}
+          />
           <Route component={DefaultContainer} />
         </Switch>
       </div>

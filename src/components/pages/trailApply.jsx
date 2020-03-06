@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../styles/trailApply.css";
+import { Link } from "react-router-dom";
 
 class TrailApply extends Component {
   state = {};
@@ -75,13 +76,11 @@ class TrailApply extends Component {
                       placeholder="请输入手机号"
                     />
                   </div>
-                  <button
-                    className="trail-apply-right-part2-submit btn btn-primary"
-                    disabled={() => this.validate()}
-                    onClick={() => this.onSubmit()}
-                  >
-                    提交
-                  </button>
+                  <Link to="/trail-apply-confirm">
+                    <button className="trail-apply-right-part2-submit btn btn-primary">
+                      提交
+                    </button>
+                  </Link>
                 </form>
               </div>
             </div>

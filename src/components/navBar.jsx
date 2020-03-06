@@ -47,10 +47,6 @@ const NavBar = () => {
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                activeStyle={{
-                  color: "#007BFE",
-                  backgroundColor: "white"
-                }}
               >
                 功能介绍
               </Link>
@@ -61,7 +57,7 @@ const NavBar = () => {
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
                   <NavLink
                     className="dropdown-item"
-                    to="/feature/inspection"
+                    to="/feature-inspection"
                     activeStyle={{
                       color: "#007BFE",
                       backgroundColor: "white"
@@ -73,7 +69,7 @@ const NavBar = () => {
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
                   <NavLink
                     className="dropdown-item"
-                    to="/feature/training"
+                    to="/feature-training"
                     activeStyle={{
                       color: "#007BFE",
                       backgroundColor: "white"
@@ -85,7 +81,7 @@ const NavBar = () => {
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
                   <NavLink
                     className="dropdown-item"
-                    to="/feature/ledger"
+                    to="/feature-ledger"
                     activeStyle={{
                       color: "#007BFE",
                       backgroundColor: "white"
@@ -97,7 +93,7 @@ const NavBar = () => {
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
                   <NavLink
                     className="dropdown-item"
-                    to="/feature/environment"
+                    to="/feature-environment"
                     activeStyle={{
                       color: "#007BFE",
                       backgroundColor: "white"
@@ -110,7 +106,7 @@ const NavBar = () => {
                 <div data-toggle="collapse" data-target=".navbar-collapse.show">
                   <NavLink
                     className="dropdown-item"
-                    to="/feature/data-analysis"
+                    to="/feature-data-analysis"
                     activeStyle={{
                       color: "#007BFE",
                       backgroundColor: "white"
