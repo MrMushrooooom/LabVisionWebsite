@@ -38,15 +38,15 @@ class FeatureDataAnalysis extends Component {
         <div className="feature-part2">
           <div className="feature-part2-div container text-left">
             <div className="row">
-              <div className="col-sm col-sm-7 order-2">
+              <div className="col-md col-md-7 order-2">
                 <img
                   className="img-fluid"
-                  src="/img/cat2.png"
+                  src="/img/feature/feature_data_analysis_01.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
               </div>
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 order-1 order-sm-2 align-self-center">
+              <div className="col-md col-9 col-md-3 offset-md-1 order-1 order-md-2 align-self-center">
                 <p className="feature-part2-primary">多角度分析</p>
                 <p className="feature-part2-content">
                   按时间、区域、学院、楼宇、安全规范多角度观测数据，对实验室安全状况进行全面分析
@@ -56,16 +56,16 @@ class FeatureDataAnalysis extends Component {
           </div>
           <div className="feature-part2-div container text-left">
             <div className="row">
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 align-self-center">
+              <div className="col-md col-9 col-md-3 offset-md-1 align-self-center">
                 <p className="feature-part2-primary">完整历史数据</p>
                 <p className="feature-part2-content">
                   系统自动保存备份全部历史数据，确保信息的连续性
                 </p>
               </div>
-              <div className="col-sm col-sm-7 offset-sm-1">
+              <div className="col-md col-md-7 offset-md-1">
                 <img
                   className="img-fluid"
-                  src="/img/cat1.png"
+                  src="/img/feature/feature_data_analysis_02.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
@@ -74,15 +74,15 @@ class FeatureDataAnalysis extends Component {
           </div>
           <div className="feature-part2-div container text-left">
             <div className="row">
-              <div className="col-sm col-sm-7 order-2">
+              <div className="col-md col-md-7 order-2">
                 <img
                   className="img-fluid"
-                  src="/img/cat2.png"
+                  src="/img/feature/feature_data_analysis_03.png"
                   alt="Responsive"
-                  width="100%"
+                  width="80%"
                 ></img>
               </div>
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 order-1 order-sm-2 align-self-center">
+              <div className="col-md col-9 col-md-3 offset-md-1 order-1 order-md-2 align-self-center">
                 <p className="feature-part2-primary">快速响应</p>
                 <p className="feature-part2-content">
                   支持多人同时在线操作，批量处理任务，系统可快速响应百万级别的数据查询
@@ -92,52 +92,16 @@ class FeatureDataAnalysis extends Component {
           </div>
           <div className="feature-part2-div container text-left">
             <div className="row">
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 align-self-center">
+              <div className="col-md col-9 col-md-3 offset-md-1 align-self-center">
                 <p className="feature-part2-primary">定期生成报告</p>
                 <p className="feature-part2-content">
                   系统定期生成月度报告、年度报告，全方位描绘实验室各项信息并推送给指定用户
                 </p>
               </div>
-              <div className="col-sm col-sm-7 offset-sm-1">
+              <div className="col-md col-md-7 offset-md-1">
                 <img
                   className="img-fluid"
-                  src="/img/cat1.png"
-                  alt="Responsive"
-                  width="100%"
-                ></img>
-              </div>
-            </div>
-          </div>
-          <div className="feature-part2-div container text-left">
-            <div className="row">
-              <div className="col-sm col-sm-7 order-2">
-                <img
-                  className="img-fluid"
-                  src="/img/cat2.png"
-                  alt="Responsive"
-                  width="100%"
-                ></img>
-              </div>
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 order-1 order-sm-2 align-self-center">
-                <p className="feature-part2-primary">权限灵活，责任分明</p>
-                <p className="feature-part2-content">
-                  采用人房绑定策略，每个环节配有特定角色，清晰的工作划分确保检查工作有序展开
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="feature-part2-div container text-left">
-            <div className="row">
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 align-self-center">
-                <p className="feature-part2-primary">数据可追溯</p>
-                <p className="feature-part2-content">
-                  完整保留全部历史数据，确保检查记录连续可查，帮助用户轻松定位目标信息
-                </p>
-              </div>
-              <div className="col-sm col-sm-7 offset-sm-1">
-                <img
-                  className="img-fluid"
-                  src="/img/cat1.png"
+                  src="/img/feature/feature_data_analysis_04.png"
                   alt="Responsive"
                   width="100%"
                 ></img>

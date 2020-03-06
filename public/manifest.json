@@ -221,6 +221,94 @@
     {
       "src": "img/home/home_solution_05.png",
       "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_inspection_01.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_inspection_02.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_inspection_03.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_inspection_04.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_inspection_05.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_inspection_06.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_training_01.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_training_02.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_training_03.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_training_04.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_training_05.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_ledger_01.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_ledger_02.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_ledger_03.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_ledger_04.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_environment_01.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_environment_02.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_environment_03.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_data_analysis_01.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_data_analysis_02.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_data_analysis_03.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_data_analysis_04.png",
+      "type": "image/png"
     }
   ],
   "start_url": ".",

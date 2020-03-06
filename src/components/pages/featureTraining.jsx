@@ -39,7 +39,7 @@ class FeatureTraining extends Component {
               <div className="col-sm col-sm-7 order-2">
                 <img
                   className="img-fluid"
-                  src="/img/cat2.png"
+                  src="/img/feature/feature_training_01.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
@@ -63,7 +63,7 @@ class FeatureTraining extends Component {
               <div className="col-sm col-sm-7 offset-sm-1">
                 <img
                   className="img-fluid"
-                  src="/img/cat1.png"
+                  src="/img/feature/feature_training_02.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
@@ -75,7 +75,7 @@ class FeatureTraining extends Component {
               <div className="col-sm col-sm-7 order-2">
                 <img
                   className="img-fluid"
-                  src="/img/cat2.png"
+                  src="/img/feature/feature_training_03.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
@@ -99,7 +99,7 @@ class FeatureTraining extends Component {
               <div className="col-sm col-sm-7 offset-sm-1">
                 <img
                   className="img-fluid"
-                  src="/img/cat1.png"
+                  src="/img/feature/feature_training_04.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
@@ -111,7 +111,7 @@ class FeatureTraining extends Component {
               <div className="col-sm col-sm-7 order-2">
                 <img
                   className="img-fluid"
-                  src="/img/cat2.png"
+                  src="/img/feature/feature_training_05.png"
                   alt="Responsive"
                   width="100%"
                 ></img>

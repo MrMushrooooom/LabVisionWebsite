@@ -22,9 +22,7 @@ import ScrollToTop from "./utility/scrollToTop";
 
 const TrailApplyContainer = () => (
   <div>
-    <div>
-      <Route path="/trail-apply" component={TrailApply} />
-    </div>
+    <Route path="/trail-apply" component={TrailApply} />
   </div>
 );
 

@@ -80,24 +80,7 @@ p.price-card-content {
     font-size: 0.8rem;
   }
 }
-@media (min-width: 992px) {
-  div.price-card {
-    height: 24rem;
-  }
-  div.price-card-footer {
-    padding-bottom: 2rem;
-  }
-  p.price-card-primary {
-    font-size: 1.6rem;
-    margin-left: 0.5rem;
-    padding-top: 1.4rem;
-  }
-  p.price-card-content {
-    padding-top: 0.8rem;
-    margin-left: 0.5rem;
-    font-size: 0.9rem;
-  }
-}
+
 @media (min-width: 1200px) {
   div.price-card {
     height: 28rem;

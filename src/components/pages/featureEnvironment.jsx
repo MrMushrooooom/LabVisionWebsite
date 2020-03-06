@@ -36,15 +36,15 @@ class FeatureEnvironment extends Component {
         <div className="feature-part2">
           <div className="feature-part2-div container text-left">
             <div className="row">
-              <div className="col-sm col-sm-7 order-2">
+              <div className="col-md col-md-7 order-2">
                 <img
                   className="img-fluid"
-                  src="/img/cat2.png"
+                  src="/img/feature/feature_environment_01.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
               </div>
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 order-1 order-sm-2 align-self-center">
+              <div className="col-md col-9 col-md-3 offset-md-1 order-1 order-md-2 align-self-center">
                 <p className="feature-part2-primary">标准参数</p>
                 <p className="feature-part2-content">
                   根据实验室类型与规格，系统提供不同条件下各项环境参数的安全指标，辅助管理者合理配置
@@ -55,16 +55,16 @@ class FeatureEnvironment extends Component {
           </div>
           <div className="feature-part2-div container text-left">
             <div className="row">
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 align-self-center">
+              <div className="col-md col-9 col-md-3 offset-md-1 align-self-center">
                 <p className="feature-part2-primary">大屏展示</p>
                 <p className="feature-part2-content">
                   图形化展示各项关键数据，全局掌握实验室安全状况
                 </p>
               </div>
-              <div className="col-sm col-sm-7 offset-sm-1">
+              <div className="col-md col-md-7 offset-md-1">
                 <img
                   className="img-fluid"
-                  src="/img/cat1.png"
+                  src="/img/feature/feature_environment_02.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
@@ -73,15 +73,15 @@ class FeatureEnvironment extends Component {
           </div>
           <div className="feature-part2-div container text-left">
             <div className="row">
-              <div className="col-sm col-sm-7 order-2">
+              <div className="col-md col-md-7 order-2">
                 <img
                   className="img-fluid"
-                  src="/img/cat2.png"
+                  src="/img/feature/feature_environment_03.png"
                   alt="Responsive"
                   width="100%"
                 ></img>
               </div>
-              <div className="col-sm col-9 col-sm-3 offset-sm-1 order-1 order-sm-2 align-self-center">
+              <div className="col-md col-9 col-md-3 offset-md-1 order-1 order-md-2 align-self-center">
                 <p className="feature-part2-primary">多渠道推送</p>
                 <p className="feature-part2-content">
                   邮件、短信、APP消息推送，多渠道并行确保用户第一时间收到通知
