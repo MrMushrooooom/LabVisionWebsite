@@ -24,11 +24,13 @@ class Partner extends Component {
                     className="partner-part2-logo"
                     src="/img/partner/partner_logo_ca.png"
                     alt="Responsive"
+                    FeatureDataAnalysis
+                    width="60%"
                   ></img>
                   <p className="partner-part2-content">
                     辰安科技是国内领先的校园安全产品与服务供应商，专注为高校提供校园安全管控与应急管理等解决方案。
                     <br /> <br />
-                    辰安科技以检查整改、风险评估、保险保障为切入点，配合全国公共安全技术标准委，依托教育部公共安全与应急管理工程中心，打造了平安实验室平台，平台覆盖实验室的安全教育、隐患排查、安全督导、安全巡查、风险评估、综合治理等业务。
+                    辰安科技以检查整改、风险评估、保险保障为切入点，配合全国公共安全技术标准委，依托教育部公共安全与应急管理工程中心，打造了业内领先的平安实验室平台。该平台覆盖实验室的安全教育、隐患排查、安全督导、安全巡查、风险评估、综合治理等业务。
                   </p>
                 </div>
                 <div className="col-md col-md-6 offset-md-1">
@@ -36,7 +38,7 @@ class Partner extends Component {
                     className="img-fluid"
                     src="/img/partner/partner_ca.png"
                     alt="Responsive"
-                    width="100%"
+                    width="90%"
                   ></img>
                 </div>
               </div>
@@ -48,7 +50,7 @@ class Partner extends Component {
                     className="img-fluid"
                     src="/img/partner/partner_gkzh.png"
                     alt="Responsive"
-                    width="100%"
+                    width="90%"
                   ></img>
                 </div>
                 <div className="col-md col-md-5 offset-md-1 order-1 order-md-2 align-self-center">
@@ -56,6 +58,7 @@ class Partner extends Component {
                     className="partner-part2-logo"
                     src="/img/partner/partner_logo_gkzh.png"
                     alt="Responsive"
+                    width="50%"
                   ></img>
                   <p className="partner-part2-content">
                     国科智慧是中国科学院大学直属的混合所有制企业，由国科大发起，中国科学院大学智慧城市协同创新与产业联盟推进。
@@ -73,6 +76,7 @@ class Partner extends Component {
                     className="partner-part2-logo"
                     src="/img/partner/partner_logo_hrkj.png"
                     alt="Responsive"
+                    width="50%"
                   ></img>
                   <p className="partner-part2-content">
                     涵然科技为高校客户提供实验室室内环境品质在线监测系统。
@@ -86,7 +90,7 @@ class Partner extends Component {
                     className="img-fluid"
                     src="/img/partner/partner_hrkj.png"
                     alt="Responsive"
-                    width="100%"
+                    width="90%"
                   ></img>
                 </div>
               </div>

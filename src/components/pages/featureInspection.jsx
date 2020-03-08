@@ -8,26 +8,38 @@ class FeatureInspection extends Component {
       <div className="feature">
         {/* part1 */}
 
-        <div className="feature-part1">
+        <div className="feature-part1 shadow p-3 mb-5 bg-white rounded">
           <div className="container">
-            <p className="feature-part1-primary">极致高效的安全检查工具</p>
             <div className="row">
-              <p className="feature-part1-content col-10 col-md-5">
-                从任务下发，到现场检查、整改、复查一系列流程labvision带你体验便捷高效的无纸化办公
-              </p>
-            </div>
-            <a href="/trail-apply" target="_blank">
-              <button
-                className="btn btn-outline-primary"
-                style={{
-                  borderRadius: "20px",
-                  paddingLeft: "2rem",
-                  paddingRight: "2rem"
-                }}
+              <div className="col-md-6">
+                <p className="feature-part1-primary">极致高效的安全检查工具</p>
+                <p className="feature-part1-content">
+                  从任务下发，到现场检查、整改、复查一系列流程，LabVision带你体验便捷高效的无纸化办公
+                </p>
+                <a href="/trail-apply" target="_blank">
+                  <button
+                    className="btn btn-outline-primary"
+                    style={{
+                      borderRadius: "20px",
+                      paddingLeft: "2rem",
+                      paddingRight: "2rem"
+                    }}
+                  >
+                    免费试用
+                  </button>
+                </a>
+              </div>
+              <div
+                className="col-12 col-md-6 text-right"
+                style={{ padding: "0" }}
               >
-                免费试用
-              </button>
-            </a>
+                <img
+                  className="img-fluid banner-bg"
+                  src="/img/feature/feature_inspection_banner.png"
+                  alt="Responsive"
+                ></img>
+              </div>
+            </div>
           </div>
         </div>
 

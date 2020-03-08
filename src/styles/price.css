@@ -59,13 +59,13 @@ p.price-part1-primary {
 
 @media (min-width: 768px) {
   p.price-part1-primary {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 }
 
 @media (min-width: 1200px) {
   p.price-part1-primary {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -77,65 +77,4 @@ div.price-part2-colume {
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   padding-bottom: 1.4rem;
-}
-div.price-part2-card {
-  height: 12rem;
-  border-width: 0;
-  border-radius: 0.3rem;
-}
-div.price-part2-card-footer {
-  border-width: 0;
-  padding-bottom: 1.2rem;
-  border-bottom-right-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
-}
-p.price-part2-primary {
-  font-size: 1rem;
-  margin-left: 0.1rem;
-  padding-top: 0.1rem;
-  font-weight: bold;
-}
-p.price-part2-content {
-  font-size: 0.8rem;
-  padding-top: 0.1rem;
-  margin-left: 0.1rem;
-  color: gray;
-}
-
-@media (min-width: 768px) {
-  div.price-part2-card {
-    height: 20rem;
-  }
-  div.price-part2-card-footer {
-    padding-bottom: 1.6rem;
-  }
-  p.price-part2-primary {
-    font-size: 1.3rem;
-    margin-left: 0.5rem;
-    padding-top: 1.4rem;
-  }
-  p.price-part2-content {
-    padding-top: 0.8rem;
-    margin-left: 0.5rem;
-    font-size: 0.8rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  div.price-part2-card {
-    height: 28rem;
-  }
-  div.price-part2-card-footer {
-    padding-bottom: 2.4rem;
-  }
-  p.price-part2-primary {
-    font-size: 1.8rem;
-    margin-left: 0.5rem;
-    padding-top: 1.4rem;
-  }
-  p.price-part2-content {
-    padding-top: 0.8rem;
-    margin-left: 0.5rem;
-    font-size: 1rem;
-  }
 }

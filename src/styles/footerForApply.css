@@ -8,7 +8,7 @@ div.footer-for-apply-bg-img {
   background-size: cover;
   background-position: center;
   padding-top: 0rem;
-  padding-bottom: 1.2rem;
+  padding-bottom: 1rem;
 }
 p.footer-for-apply-primary {
   padding-top: 1rem;
@@ -33,13 +33,16 @@ p.footer-for-apply-secondary {
     padding-bottom: 2rem;
   }
   p.footer-for-apply-primary {
-    font-size: 1.4rem;
-    padding-top: 2rem;
+    font-size: 1.8em;
+    padding-top: 1rem;
     margin-bottom: 0.3rem;
   }
   p.footer-for-apply-secondary {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding-bottom: 2rem;
+  }
+  button.footer-for-apply-button {
+    width: 12rem;
   }
 }
 @media (min-width: 1200px) {
@@ -47,16 +50,20 @@ p.footer-for-apply-secondary {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
   }
   p.footer-for-apply-primary {
-    font-size: 1.8rem;
-    padding-top: 3rem;
-    margin-bottom: 0.3rem;
+    font-size: 2.2em;
+    padding-top: 0rem;
+    margin-bottom: 0.7rem;
   }
   p.footer-for-apply-secondary {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-bottom: 3rem;
+  }
+  button.footer-for-apply-button {
+    width: 13rem;
+    margin-bottom: 5rem;
   }
 }

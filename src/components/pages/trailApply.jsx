@@ -17,10 +17,10 @@ class TrailApply extends Component {
           <div className="col trail-apply-left d-none d-lg-block"></div>
           <div className="col trail-apply-right">
             <div className="trail-apply-right-part1">
-              <div className="logo">
+              <div className="trail-apply-logo">
                 <img
                   src="/img/logo_labvision.svg"
-                  className="logo img-fluid"
+                  className="trail-apply-logo img-fluid"
                   alt="logo"
                 ></img>
               </div>

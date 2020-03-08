@@ -7,27 +7,38 @@ class FeatureLedger extends Component {
     return (
       <div className="feature">
         {/* part1 */}
-
-        <div className="feature-part1">
+        <div className="feature-part1 shadow p-3 mb-5 bg-white rounded">
           <div className="container">
-            <p className="feature-part1-primary">灵活可扩展的动态台账</p>
             <div className="row">
-              <p className="feature-part1-content col-10 col-md-5">
-                LabVision以实验室为单位，通过与现有系统对接，将动态台账全方位、直观地展示与用户
-              </p>
-            </div>
-            <a href="/trail-apply" target="_blank">
-              <button
-                className="btn btn-outline-primary"
-                style={{
-                  borderRadius: "20px",
-                  paddingLeft: "2rem",
-                  paddingRight: "2rem"
-                }}
+              <div className="col-md-6">
+                <p className="feature-part1-primary">灵活可扩展的动态台账</p>
+                <p className="feature-part1-content">
+                  LabVision以实验室为单位，通过与现有系统对接，将动态台账全方位地展示与用户
+                </p>
+                <a href="/trail-apply" target="_blank">
+                  <button
+                    className="btn btn-outline-primary"
+                    style={{
+                      borderRadius: "20px",
+                      paddingLeft: "2rem",
+                      paddingRight: "2rem"
+                    }}
+                  >
+                    免费试用
+                  </button>
+                </a>
+              </div>
+              <div
+                className="col-12 col-md-6 text-right"
+                style={{ padding: "0" }}
               >
-                免费试用
-              </button>
-            </a>
+                <img
+                  className="img-fluid banner-bg"
+                  src="/img/feature/feature_ledger_banner.png"
+                  alt="Responsive"
+                ></img>
+              </div>
+            </div>
           </div>
         </div>
 

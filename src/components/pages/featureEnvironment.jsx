@@ -8,26 +8,38 @@ class FeatureEnvironment extends Component {
       <div className="feature">
         {/* part1 */}
 
-        <div className="feature-part1">
+        <div className="feature-part1 shadow p-3 mb-5 bg-white rounded">
           <div className="container">
-            <p className="feature-part1-primary">安全可靠的环境监测</p>
             <div className="row">
-              <p className="feature-part1-content col-10 col-md-5">
-                LabVision提供完整的环境监测解决方案，从物联网施工部署，到软件调试，并支持对接实验室已有设备
-              </p>
-            </div>
-            <a href="/trail-apply" target="_blank">
-              <button
-                className="btn btn-outline-primary"
-                style={{
-                  borderRadius: "20px",
-                  paddingLeft: "2rem",
-                  paddingRight: "2rem"
-                }}
+              <div className="col-md-6">
+                <p className="feature-part1-primary">安全可靠的环境监测</p>
+                <p className="feature-part1-content">
+                  LabVision提供完整的环境监测解决方案，从物联网施工部署到系统软件调试，同时支持对接实验室现有设备
+                </p>
+                <a href="/trail-apply" target="_blank">
+                  <button
+                    className="btn btn-outline-primary"
+                    style={{
+                      borderRadius: "20px",
+                      paddingLeft: "2rem",
+                      paddingRight: "2rem"
+                    }}
+                  >
+                    免费试用
+                  </button>
+                </a>
+              </div>
+              <div
+                className="col-12 col-md-6 text-right"
+                style={{ padding: "0" }}
               >
-                免费试用
-              </button>
-            </a>
+                <img
+                  className="img-fluid banner-bg"
+                  src="/img/feature/feature_environment_banner.png"
+                  alt="Responsive"
+                ></img>
+              </div>
+            </div>
           </div>
         </div>
 

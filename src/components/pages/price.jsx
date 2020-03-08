@@ -9,26 +9,30 @@ const priceCardsProp = [
     primary: "试用版",
     content: "免费体验标准版30天",
     num: "1",
-    button: "免费试用"
+    buttonLabel: "免费试用",
+    href: "/trail-apply"
   },
   {
     primary: "标准版",
     content: "提供专业服务与支持的标准实验室安全管理套件，适合小型团",
     num: "2",
-    button: "联系我们"
+    buttonLabel: "联系我们",
+    href: "/contact-us"
   },
   {
     primary: "高级版",
     content:
       "提供标准管理功能和更大使用容量的企业级实验室安全管理套件，适合中大型团队",
     num: "3",
-    button: "联系我们"
+    buttonLabel: "联系我们",
+    href: "/contact-us"
   },
   {
     primary: "定制版",
     content: "在实现标准管理功能的基础上，提供定制化开发服务，适合超大型团队",
     num: "4",
-    button: "联系我们"
+    buttonLabel: "联系我们",
+    href: "/contact-us"
   }
 ];
 // const priceTableProp = [
@@ -77,7 +81,8 @@ class Price extends Component {
                   primary={priceCardsProp[0]["primary"]}
                   content={priceCardsProp[0]["content"]}
                   num={priceCardsProp[0]["num"]}
-                  button={priceCardsProp[0]["button"]}
+                  buttonLabel={priceCardsProp[0]["buttonLabel"]}
+                  href={priceCardsProp[0]["href"]}
                 />
               </div>
               <div className="price-part2-colume col-6 col-md-3 ">
@@ -85,7 +90,8 @@ class Price extends Component {
                   primary={priceCardsProp[1]["primary"]}
                   content={priceCardsProp[1]["content"]}
                   num={priceCardsProp[1]["num"]}
-                  button={priceCardsProp[1]["button"]}
+                  buttonLabel={priceCardsProp[1]["buttonLabel"]}
+                  href={priceCardsProp[1]["href"]}
                 />
               </div>
               <div className="price-part2-colume col-6 col-md-3">
@@ -93,7 +99,8 @@ class Price extends Component {
                   primary={priceCardsProp[2]["primary"]}
                   content={priceCardsProp[2]["content"]}
                   num={priceCardsProp[2]["num"]}
-                  button={priceCardsProp[2]["button"]}
+                  buttonLabel={priceCardsProp[2]["buttonLabel"]}
+                  href={priceCardsProp[2]["href"]}
                 />
               </div>
               <div className="price-part2-colume col-6 col-md-3">
@@ -101,7 +108,8 @@ class Price extends Component {
                   primary={priceCardsProp[3]["primary"]}
                   content={priceCardsProp[3]["content"]}
                   num={priceCardsProp[3]["num"]}
-                  button={priceCardsProp[3]["button"]}
+                  buttonLabel={priceCardsProp[3]["buttonLabel"]}
+                  href={priceCardsProp[3]["href"]}
                 />
               </div>
             </div>

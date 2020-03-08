@@ -8,26 +8,40 @@ class FeatureTraining extends Component {
       <div className="feature">
         {/* part1 */}
 
-        <div className="feature-part1">
+        <div className="feature-part1 shadow p-3 mb-5 bg-white rounded">
           <div className="container">
-            <p className="feature-part1-primary">强大便捷的培训与准入系统</p>
             <div className="row">
-              <p className="feature-part1-content col-10 col-md-5">
-                在LabVision，你可以轻松制作各类考题与课件，通过与实验室信息联动，实现培训、考试、准入环节的无缝衔接
-              </p>
-            </div>
-            <a href="/trail-apply" target="_blank">
-              <button
-                className="btn btn-outline-primary"
-                style={{
-                  borderRadius: "20px",
-                  paddingLeft: "2rem",
-                  paddingRight: "2rem"
-                }}
+              <div className="col-md-6">
+                <p className="feature-part1-primary">
+                  强大便捷的培训与准入系统
+                </p>
+                <p className="feature-part1-content">
+                  在LabVision，你可以轻松制作各类考题与课件，通过与实验室信息联动，实现培训、考试、准入环节的无缝衔接
+                </p>
+                <a href="/trail-apply" target="_blank">
+                  <button
+                    className="btn btn-outline-primary"
+                    style={{
+                      borderRadius: "20px",
+                      paddingLeft: "2rem",
+                      paddingRight: "2rem"
+                    }}
+                  >
+                    免费试用
+                  </button>
+                </a>
+              </div>
+              <div
+                className="col-12 col-md-6 text-right"
+                style={{ padding: "0" }}
               >
-                免费试用
-              </button>
-            </a>
+                <img
+                  className="img-fluid banner-bg"
+                  src="/img/feature/feature_training_banner.png"
+                  alt="Responsive"
+                ></img>
+              </div>
+            </div>
           </div>
         </div>
 

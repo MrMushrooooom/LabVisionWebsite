@@ -2,16 +2,10 @@
 will changed for bigger screen */
 
 /* base */
-img.logo {
-  height: 1.8rem;
+img.navbar-logo {
   padding-right: 4rem;
+  padding-left: 0.5rem;
 }
-div.collapsed-menu {
-  /* width: 100%;
-  height: 80vh;
-  background-color: blue; */
-}
-
 a.dropdown-item {
   padding: 1rem;
 }

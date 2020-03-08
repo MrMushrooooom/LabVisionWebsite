@@ -159,6 +159,10 @@
       "sizes": "560x120"
     },
     {
+      "src": "img/home/home_banner.png",
+      "type": "image/png"
+    },
+    {
       "src": "img/home/home_cooperation_bg.png",
       "type": "image/png"
     },
@@ -308,6 +312,26 @@
     },
     {
       "src": "img/feature/feature_data_analysis_04.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_inspection_banner.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_training_banner.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_ledger_banner.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_envionment_banner.png",
+      "type": "image/png"
+    },
+    {
+      "src": "img/feature/feature_data_analysis_banner.png",
       "type": "image/png"
     },
     {

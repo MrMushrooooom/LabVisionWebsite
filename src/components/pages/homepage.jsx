@@ -9,26 +9,40 @@ class Homepage extends Component {
       <div className="homepage">
         {/* part1 */}
 
-        <div className="homepage-part1">
+        <div className="homepage-part1 shadow p-3 mb-5 bg-white rounded">
           <div className="container">
-            <p className="homepage-part1-primary">实验室安全管理</p>
-            <p className="homepage-part1-secondary">从未如此简单</p>
-            <p className="homepage-part1-content">
-              依靠高效、便捷的解决方案
-              <br /> 让任何人都可以轻松完成实验室管理工作
-            </p>
-            <a href="/trail-apply" target="_blank">
-              <button
-                className="btn btn-outline-primary"
-                style={{
-                  borderRadius: "20px",
-                  paddingLeft: "2rem",
-                  paddingRight: "2rem"
-                }}
+            <div className="row">
+              <div className="col-md-6">
+                <p className="homepage-part1-primary">实验室安全管理</p>
+                <p className="homepage-part1-secondary">从未如此简单</p>
+                <p className="homepage-part1-content">
+                  依靠高效、便捷的解决方案
+                  <br /> 让任何人都可以轻松完成实验室管理工作
+                </p>
+                <a href="/trail-apply" target="_blank">
+                  <button
+                    className="btn btn-outline-primary"
+                    style={{
+                      borderRadius: "20px",
+                      paddingLeft: "2rem",
+                      paddingRight: "2rem"
+                    }}
+                  >
+                    免费试用
+                  </button>
+                </a>
+              </div>
+              <div
+                className="col-12 col-md-6 text-right"
+                style={{ padding: "0" }}
               >
-                免费试用
-              </button>
-            </a>
+                <img
+                  className="img-fluid home-banner-bg"
+                  src="/img/home/home_banner.png"
+                  alt="Responsive"
+                ></img>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -218,7 +232,7 @@ class Homepage extends Component {
                     <p className="homepage-part5-content text-center">
                       预置多种模版
                       <br />
-                      采用工作流方式协同办公
+                      工作流方式协同办公
                     </p>
                   </div>
                 </div>
@@ -258,7 +272,7 @@ class Homepage extends Component {
                       智能升级
                     </p>
                     <p className="homepage-part5-content text-center">
-                      参考过往数据自动给出建议提醒
+                      数据学习给出建议提醒
                       <br />
                       有效降低工作成本
                     </p>
@@ -322,9 +336,9 @@ class Homepage extends Component {
                       信息安全
                     </p>
                     <p className="homepage-part5-content text-center">
-                      国际权威安全认证与成熟的信息安全管理体系
+                      国际权威安全认证
                       <br />
-                      为用户提供全生命周期安全保障
+                      全生命周期安全保障
                     </p>
                   </div>
                 </div>

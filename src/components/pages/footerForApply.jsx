@@ -11,16 +11,9 @@ const FooterForApply = () => {
         <p className="footer-for-apply-secondary text-center">
           开启高效实验室管理时代
         </p>
-        <a
-          href="/trail-apply"
-          target="_blank"
-          style={{
-            padding: "rem",
-            margin: "0"
-          }}
-        >
+        <a href="/trail-apply" target="_blank">
           <button
-            className="btn btn-primary"
+            className="footer-for-apply-button btn btn-primary"
             style={{
               borderRadius: "20px",
               paddingLeft: "2rem",

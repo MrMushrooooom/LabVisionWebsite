@@ -3,7 +3,7 @@ will changed for bigger screen */
 
 /* base */
 
-div.trail-apply-left {
+div.trail-apply-confirm-left {
   -ms-flex: 0 0 25rem;
   flex: 0 0 25rem;
   height: 100vh;
@@ -12,21 +12,21 @@ div.trail-apply-left {
   background-position: center;
   background-size: cover;
 }
-div.trail-apply-right {
+div.trail-apply-confirm-right {
   height: 80vh;
   min-height: 20rem;
 }
-div.trail-apply-right-part1 {
+div.trail-apply-confirm-right-part1 {
   padding-top: 1rem;
   padding-bottom: 0rem;
   padding-left: 1rem;
   margin-bottom: 3.5rem;
 }
-img.logo {
+img.trail-apply-confirm-logo {
   padding-left: 0rem;
 }
 
-div.trail-apply-right-part2 {
+div.trail-apply-confirm-right-part2 {
   padding-bottom: 0rem;
   margin-bottom: 0rem;
   padding-left: 0.5rem;
@@ -38,7 +38,7 @@ img.successful_icon {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-p.trail-apply-right-part2-primary {
+p.trail-apply-confirm-right-part2-primary {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -46,7 +46,7 @@ p.trail-apply-right-part2-primary {
   margin-bottom: 3rem;
   font-weight: bolder;
 }
-p.trail-apply-right-part2-content {
+p.trail-apply-confirm-right-part2-content {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -55,13 +55,13 @@ p.trail-apply-right-part2-content {
 }
 
 @media (min-width: 768px) {
-  img.logo {
+  img.trail-apply-confirm-logo {
     padding-left: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  img.logo {
+  img.trail-apply-confirm-logo {
     padding-left: 2rem;
   }
 }

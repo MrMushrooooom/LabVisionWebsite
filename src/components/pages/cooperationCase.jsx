@@ -37,6 +37,7 @@ class CooperationCase extends Component {
                       className="cooperation-case-part2 img-fluid"
                       src="/img/cooperation/cooperation_jyb.png"
                       alt="Responsive"
+                      width="100%"
                     ></img>
                   </div>
                   <div className="col-md col-md-5 order-md-2 offset-md-1">

@@ -34,13 +34,13 @@ div.contact-us-part2 {
 /* part1 */
 p.contact-us-part1-primary {
   margin: 0px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
 }
 @media (min-width: 768px) {
   p.contact-us-part1-primary {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 }
 @media (min-width: 1200px) {

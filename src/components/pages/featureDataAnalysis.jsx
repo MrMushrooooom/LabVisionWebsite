@@ -8,28 +8,40 @@ class FeatureDataAnalysis extends Component {
       <div className="feature">
         {/* part1 */}
 
-        <div className="feature-part1">
+        <div className="feature-part1 shadow p-3 mb-5 bg-white rounded">
           <div className="container">
-            <p className="feature-part1-primary">
-              由实验室专家指导设计的数据分析模块
-            </p>
             <div className="row">
-              <p className="feature-part1-content col-10 col-md-5">
-                丰富直观的数据分析模块，快速聚焦关键问题，LabVision为管理者提供决策支持
-              </p>
-            </div>
-            <a href="/trail-apply" target="_blank">
-              <button
-                className="btn btn-outline-primary"
-                style={{
-                  borderRadius: "20px",
-                  paddingLeft: "2rem",
-                  paddingRight: "2rem"
-                }}
+              <div className="col-md-6">
+                <p className="feature-part1-primary">
+                  专家指导设计的数据分析模块
+                </p>
+                <p className="feature-part1-content">
+                  丰富直观的数据分析模块，快速聚焦关键问题，LabVision为管理者提供决策支持
+                </p>
+                <a href="/trail-apply" target="_blank">
+                  <button
+                    className="btn btn-outline-primary"
+                    style={{
+                      borderRadius: "20px",
+                      paddingLeft: "2rem",
+                      paddingRight: "2rem"
+                    }}
+                  >
+                    免费试用
+                  </button>
+                </a>
+              </div>
+              <div
+                className="col-12 col-md-6 text-right"
+                style={{ padding: "0" }}
               >
-                免费试用
-              </button>
-            </a>
+                <img
+                  className="img-fluid banner-bg"
+                  src="/img/feature/feature_data_analysis_banner.png"
+                  alt="Responsive"
+                ></img>
+              </div>
+            </div>
           </div>
         </div>
 

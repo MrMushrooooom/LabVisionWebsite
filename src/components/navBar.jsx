@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav
-      className="sticky-top navbar navbar-expand-lg navbar-light"
+      className="sticky-top navbar navbar-expand-lg navbar-light shadow-sm p-3 rounded"
       style={{ backgroundColor: "#FFFFFF" }}
     >
       <div className="container">
@@ -17,7 +17,7 @@ const NavBar = () => {
           <Link className="navbar-brand" to="/home">
             <img
               src="/img/logo_labvision.svg"
-              className="logo img-fluid"
+              className="navbar-logo img-fluid"
               alt="logo"
             ></img>
           </Link>
@@ -184,7 +184,7 @@ const NavBar = () => {
         >
           <a href="/trail-apply" target="_blank">
             <button
-              className="btn btn-outline-primary btn-sm"
+              className="btn btn-primary btn-sm"
               style={{
                 borderRadius: "20px",
                 paddingLeft: "1.5rem",

@@ -45,6 +45,22 @@ p.trail-apply-right-part2-content {
 form.trail-apply-right-part2-form {
   width: 100%;
 }
+
+::placeholder {
+  color: #aaaaaa !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #aaaaaa !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #aaaaaa !important;
+}
+
 button.trail-apply-right-part2-submit {
   margin-top: 2rem;
   width: 100%;
@@ -75,7 +91,7 @@ label.trail-apply-right-part2-label {
 }
 
 @media (min-width: 1200px) {
-  img.logo {
+  img.trail-apply-logo {
     padding-left: 2rem;
   }
   form.trail-apply-right-part2-form {
