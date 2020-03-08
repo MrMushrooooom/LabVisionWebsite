@@ -2,73 +2,60 @@
 will changed for bigger screen */
 
 /* base */
-div.homepage-part1 {
-  background-color: yellowgreen;
-  padding-left: 1rem;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+
+div.service-agreement {
+  position: relative;
+  padding-top: 0rem;
 }
-div.homepage-part2 {
-  background-color: white;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-}
-div.homepage-part3 {
-  background-color: white;
-  padding-left: 1rem;
+div.service-agreement-left {
+  -ms-flex: 0 0 25rem;
+  flex: 0 0 25rem;
+  height: 45rem;
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  margin-top: 10rem;
 }
-div.homepage-part4 {
-  background-color: #563d7c;
-  padding-top: 3rem;
-  padding-bottom: 8rem;
-}
-div.homepage-part5 {
-  background-color: white;
-  padding-top: 4rem;
-  padding-bottom: 0.1rem;
-}
-div.homepage-part6 {
-  background-color: white;
-  padding-top: 0.1rem;
+div.service-agreement-right {
+  margin-top: 3rem;
   padding-bottom: 4rem;
+}
+p.service-agreement-right-title {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+p.service-agreement-right-primary {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+p.service-agreement-right-content {
+  font-size: 0.9rem;
+}
+div.service-agreement-right-space {
+  height: 2rem;
+}
+
+div.col-8 div {
 }
 
 @media (min-width: 768px) {
-  div.homepage-part1 {
-    padding-bottom: 5rem;
+  p.service-agreement-right-title {
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    font-size: 1.6rem;
   }
-  div.homepage-part2 {
-    padding-bottom: 2rem;
+  p.service-agreement-right-primary {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
   }
-  div.homepage-part3 {
-    padding-top: 2rem;
+  p.service-agreement-right-content {
+    font-size: 1rem;
   }
-  div.homepage-part5 {
-    padding-top: 5rem;
-  }
-  div.homepage-part6 {
-    padding-top: 2rem;
-    padding-bottom: 6rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  div.homepage-part1 {
-    padding-bottom: 7rem;
-  }
-  div.homepage-part2 {
-    padding-bottom: 4rem;
-  }
-  div.homepage-part3 {
-    padding-top: 5rem;
-  }
-  div.homepage-part5 {
-    padding-top: 8rem;
-  }
-  div.homepage-part6 {
-    padding-top: 4rem;
-    padding-bottom: 10rem;
+  div.service-agreement-right-space {
+    height: 6rem;
   }
 }
