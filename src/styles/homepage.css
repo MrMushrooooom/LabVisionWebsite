@@ -113,6 +113,12 @@ img.home-banner-bg {
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
+button.homepage-part1-apply-button {
+  margin-top: 0rem;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 @media (min-width: 768px) {
   p.homepage-part1-primary {
@@ -128,6 +134,15 @@ img.home-banner-bg {
   img.home-banner-bg {
     width: 100%;
   }
+  button.homepage-part1-apply-button {
+    margin-top: 1rem;
+    border-radius: 2.6rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    width: 10rem;
+    height: 2.6rem;
+    font-size: 1.2rem;
+  }
 }
 @media (min-width: 1200px) {
   p.homepage-part1-primary {
@@ -142,6 +157,15 @@ img.home-banner-bg {
   }
   img.home-banner-bg {
     width: 100%;
+  }
+  button.homepage-part1-apply-button {
+    margin-top: 1rem;
+    border-radius: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 11rem;
+    height: 3rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -379,4 +403,19 @@ div.homepage-part6-img {
   p.homepage-part6-secondary {
     font-size: 1.3rem;
   }
+}
+
+/* animation */
+img.homepage-part3-img1 {
+  /* animation-name: example; */
+  /* animation-duration: 2s; */
+}
+
+@keyframes example {
+  /* 0% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  } */
 }

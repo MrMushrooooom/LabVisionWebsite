@@ -2,6 +2,25 @@
 will changed for bigger screen */
 
 /* base */
+div.feature-trans-bg1 {
+  background-image: url("/img/common/bg_trans_01.png");
+  background-repeat: no-repeat;
+  background-position: 100% 8%;
+  background-size: 100%;
+}
+div.feature-trans-bg2 {
+  background-image: url("/img/common/bg_trans_02.png");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 35%;
+}
+div.feature-trans-bg3 {
+  background-image: url("/img/common/bg_trans_03.png");
+  background-repeat: no-repeat;
+  background-position: 0% 40%;
+  background-size: 70%;
+}
+
 div.feature-part1 {
   padding-left: 1rem;
   padding-top: 3rem;
@@ -10,8 +29,6 @@ div.feature-part1 {
 
 div.feature-part2 {
   background-color: white;
-  padding-left: 2rem;
-  padding-right: 2rem;
   padding-top: 4rem;
   padding-bottom: 1rem;
 }
@@ -46,7 +63,7 @@ p.feature-part1-content {
   font-size: 1rem;
   color: #444444;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: justify;
   padding-right: 2rem;
 }
@@ -54,6 +71,12 @@ img.banner-bg {
   width: 80%;
   padding-top: 2rem;
   padding-bottom: 1rem;
+}
+button.feature-apply-button {
+  margin-top: 0rem;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -68,24 +91,47 @@ img.banner-bg {
   img.banner-bg {
     width: 100%;
   }
+  button.feature-apply-button {
+    margin-top: 1rem;
+    border-radius: 2.6rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    width: 10rem;
+    height: 2.6rem;
+    font-size: 1.2rem;
+  }
 }
 @media (min-width: 1200px) {
   p.feature-part1-primary {
     padding-top: 4rem;
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   p.feature-part1-content {
     font-size: 1.1rem;
     width: 80%;
   }
   img.banner-bg {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     width: 100%;
+  }
+
+  button.feature-apply-button {
+    margin-top: 1rem;
+    border-radius: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 11rem;
+    height: 3rem;
+    font-size: 1.4rem;
   }
 }
 
 /* part2 */
 div.feature-part2-div {
   margin-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 p.feature-part2-primary {
   margin: 0px;

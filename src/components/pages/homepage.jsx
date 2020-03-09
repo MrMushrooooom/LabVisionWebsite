@@ -20,14 +20,7 @@ class Homepage extends Component {
                   <br /> 让任何人都可以轻松完成实验室管理工作
                 </p>
                 <a href="/trail-apply" target="_blank">
-                  <button
-                    className="btn btn-outline-primary"
-                    style={{
-                      borderRadius: "20px",
-                      paddingLeft: "2rem",
-                      paddingRight: "2rem"
-                    }}
-                  >
+                  <button className="homepage-part1-apply-button btn btn-outline-primary">
                     免费试用
                   </button>
                 </a>

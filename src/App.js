@@ -34,7 +34,7 @@ const TrailApplyContainer = () => (
 const DefaultContainer = () => (
   <div>
     <NavBar />
-    <div>
+    <div className="content-under-nav-bar">
       <Switch>
         <Route path="/home" component={Homepage} />
         <Route path="/feature-inspection" component={FeatureInspection} />

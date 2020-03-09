@@ -2,6 +2,9 @@
 will changed for bigger screen */
 
 /* base */
+nav.navbar {
+}
+
 img.navbar-logo {
   padding-right: 4rem;
   padding-left: 0.5rem;
