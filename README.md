@@ -1,8 +1,15 @@
+<!--
+ * @Descripttion: $0
+ * @version: 
+ * @Author: linPing
+ * @Date: 2020-03-10 18:50:35
+ * @LastEditTime: 2020-03-10 18:52:27
+ -->
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run:1
 
 ### `yarn start`
 
