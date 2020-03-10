@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav
-      className="fixed-top navbar navbar-expand-lg navbar-light shadow-sm p-3 rounded"
+      className=" fixed-top navbar navbar-expand-lg navbar-light shadow-sm p-3 rounded"
       style={{ backgroundColor: "#FFFFFF" }}
     >
       <div className="container">
@@ -160,6 +160,21 @@ const NavBar = () => {
                 }}
               >
                 价格
+              </NavLink>
+            </div>
+            <div
+              className="navlink"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <NavLink
+                className="nav-item nav-link"
+                to="/contact-us"
+                activeStyle={{
+                  color: "#007BFE"
+                }}
+              >
+                联系我们
               </NavLink>
             </div>
             <div

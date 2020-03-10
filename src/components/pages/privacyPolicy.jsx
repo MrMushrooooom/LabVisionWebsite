@@ -10,7 +10,7 @@ class PrivacyPolicy extends Component {
           <div className="privacy-policy-left col-3 navbar-light bg-light d-none d-lg-block">
             <ul className="nav nav-pills flex-column">
               <li className="nav-item">
-                <a className="nav-link text-secondary" href="#">
+                <a className="nav-link text-secondary" href="#section0">
                   开始
                 </a>
               </li>
@@ -20,7 +20,7 @@ class PrivacyPolicy extends Component {
                 </a>
               </li>
               <li>
-                <a className="nav-link text-secondary" href="#">
+                <a className="nav-link text-secondary" href="#sectionA">
                   隐私政策
                 </a>
               </li>

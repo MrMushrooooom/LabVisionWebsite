@@ -10,7 +10,7 @@ class ServiceAgreement extends Component {
           <div className="service-agreement-left col-3 navbar-light bg-light d-none d-lg-block">
             <ul className="nav nav-pills flex-column">
               <li className="nav-item">
-                <a className="nav-link text-secondary" href="#">
+                <a className="nav-link text-secondary" href="#section0">
                   开始
                 </a>
               </li>
@@ -20,7 +20,7 @@ class ServiceAgreement extends Component {
                 </a>
               </li>
               <li>
-                <a className="nav-link text-secondary" href="#">
+                <a className="nav-link text-secondary" href="#sectionA">
                   服务协议
                 </a>
               </li>

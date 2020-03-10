@@ -12,7 +12,7 @@ const PriceCard = ({ primary, content, num, buttonLabel, href }) => {
       </div>
       <div className="price-card-footer card-footer  border-success d-none d-lg-block">
         {href === "/trail-apply" ? (
-          <a href={href} target="_blank">
+          <a href={href} target="_blank" rel="noopener noreferrer">
             <button
               className="btn btn-primary"
               style={{

@@ -13,10 +13,10 @@ a.dropdown-item {
   padding: 1rem;
 }
 div.nav-item {
-  margin-right: 2.5rem;
+  margin-right: 1.5rem;
 }
 div.navlink {
-  margin-right: 2.5rem;
+  margin-right: 1.5rem;
 }
 div.dropdown.open.active > a:hover,
 div.dropdown.open > a {

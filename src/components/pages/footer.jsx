@@ -23,7 +23,7 @@ const Footer = () => {
         </li>
       </ul>
       <p className="footer-copyright">
-        Copyright © 2020 南京合轻网络技术有限公司 京ICP备15000511
+        Copyright © 2020 南京合轻网络技术有限公司 苏ICP备19061439号-1
       </p>
     </div>
   );
