@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../../styles/trailApply.css";
 import { withRouter } from "react-router-dom";
 import Input from "../common/input";
+import axios from 'axios'
 
 class TrailApply extends Component {
   state = {
@@ -62,7 +63,23 @@ class TrailApply extends Component {
 
     if (errors) return;
 
-    this.props.history.replace("/trail-apply-confirm");
+    const {account} = this.state
+
+    axios.post('/email', {
+     ...account,
+    token:'gwunited'
+  })
+    .then( (response)=> {
+      console.log(response)
+      this.props.history.replace("/trail-apply-confirm");
+    })
+    .catch( (error)=> {
+      console.log(error);
+   
+    })
+
+
+
   };
 
   render() {
