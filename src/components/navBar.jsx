@@ -192,9 +192,8 @@ const NavBar = () => {
             </div>
           </div>
         </div>
-        <div
-          className="d-none d-lg-block"
-          data-toggle="collapse"
+        <div          data-toggle="collapse"
+        className="d-none d-lg-block"
           data-target=".navbar-collapse.show"
         >
           <a href="/trail-apply" target="_blank">

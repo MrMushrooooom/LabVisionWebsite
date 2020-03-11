@@ -83,7 +83,7 @@ const NavBarTest = () => {
         </div>
         <a href="/trail-apply" target="_blank" className="d-none d-lg-block">
           <CommonButton
-            label="免费试用"
+            label="免费试用1"
             style={{
               marginRight: "20px",
               borderRadius: "5px"

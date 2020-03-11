@@ -32,13 +32,17 @@ class TrailApply extends Component {
       case "email": {
         let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         if (trimedValue === "") return "请填写邮箱";
-        // else if (reg.test(trimedValue) === false) {
-        //   return "请输入正确的邮箱格式";
-        // }
+        if (reg.test(trimedValue) === false) {
+          return "请输入正确的邮箱格式";
+        }
         break;
       }
       case "phone": {
+        let reg = /^1[3456789]\d{9}$/;
         if (trimedValue === "") return "请填写手机号";
+       if (reg.test(trimedValue) === false) {
+          return "请输入正确的手机号";
+        }
         break;
       }
       default: {
@@ -65,7 +69,7 @@ class TrailApply extends Component {
 
     const {account} = this.state
 
-    axios.post('/email', {
+    axios.post('/resource_api/email', {
      ...account,
     token:'gwunited'
   })
