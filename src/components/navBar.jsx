@@ -17,6 +17,7 @@ const NavBar = () => {
           <Link className="navbar-brand" to="/home">
             <img
               src="/img/logo_labvision.svg"
+              width="200"
               className="navbar-logo img-fluid"
               alt="logo"
             ></img>

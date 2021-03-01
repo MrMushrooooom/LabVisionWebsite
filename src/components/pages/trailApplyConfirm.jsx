@@ -12,6 +12,7 @@ class TrailApplyConfirm extends Component {
             <div className="trail-apply-confirm-right-part1">
               <img
                 src="/img/logo_labvision.svg"
+                width="200"
                 className="trail-apply-confirm-logo img-fluid"
                 alt="logo"
               ></img>

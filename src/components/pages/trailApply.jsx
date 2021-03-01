@@ -98,6 +98,7 @@ class TrailApply extends Component {
               <div className="trail-apply-logo">
                 <img
                   src="/img/logo_labvision.svg"
+                  width="200"
                   className="trail-apply-logo img-fluid"
                   alt="logo"
                 ></img>
@@ -106,7 +107,7 @@ class TrailApply extends Component {
             <div className="trail-apply-right-part2 row ">
               <div className="col-8 offset-2 col-md-4 offset-md-4">
                 <p className="trail-apply-right-part2-primary">
-                  欢迎使用LabVision
+                  欢迎使用小来卫士
                 </p>
                 <p className="trail-apply-right-part2-content">
                   只需完善简短信息，即刻开启高效实验室管理时代
