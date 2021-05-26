@@ -60,7 +60,7 @@ class ContactUs extends Component {
                         paddingRight: "2rem"
                       }}
                     >
-                      400-8110-118
+                      135-2010-3361
                     </button>
                   </div>
                 </div>
