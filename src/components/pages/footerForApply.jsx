@@ -6,7 +6,7 @@ const FooterForApply = () => {
     <div className="main footer-for-apply-bg-img">
       <div className="container text-center">
         <p className="footer-for-apply-primary text-center">
-          现在就体验LabVision
+          现在就体验小来卫士
         </p>
         <p className="footer-for-apply-secondary text-center">
           开启高效实验室管理时代
